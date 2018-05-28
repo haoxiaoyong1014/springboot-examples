@@ -15,7 +15,7 @@ RabbitMQ是一个开源的AMQP实现，服务器端用Erlang语言编写，支�
 
 通常我们谈到队列服务, 会有三个概念： 发消息者、队列、收消息者，RabbitMQ 在这个基本概念之上, 多做了一层抽象, 在发消息者和 队列之间, 加入了交换器 (Exchange). 这样发消息者和队列就没有直接联系, 转而变成发消息者把消息给交换器, 交换器根据调度策略再把消息再给队列。
 
-![image](http://github.com/haoxiaoyong1014/springboot-examples/raw/master/img/v2.jpg)
+![image](https://github.com/haoxiaoyong1014/springboot-examples/raw/master/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/img/v2.jpg)
 
 左侧 P 代表 生产者，也就是往 RabbitMQ 发消息的程序。
 中间即是 RabbitMQ，其中包括了 交换机 和 队列。
@@ -35,7 +35,7 @@ Fanout：转发消息到所有绑定队列
 Direct Exchange
 Direct Exchange是RabbitMQ默认的交换机模式，也是最简单的模式，根据key全文匹配去寻找队列。
 
-![image](http://github.com/haoxiaoyong1014/springboot-examples/raw/master/img/v3.jpg)
+![image](https://github.com/haoxiaoyong1014/springboot-examples/raw/master/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/img/v3.jpg)
 
 第一个 X - Q1 就有一个 binding key，名字为 orange； X - Q2 就有 2 个 binding key，名字为 black 和 green。当消息中的 路由键 和 这个 binding key 对应上的时候，那么就知道了该消息去到哪一个队列中。
 
