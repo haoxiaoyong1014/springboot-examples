@@ -1,0 +1,473 @@
+/*
+Coming Template
+
+*/
+
+
+body
+	{
+		background: #ffffff;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		font-size: 13px;
+		overflow-x: hidden; 
+	}
+p {
+	line-height: 1.6em;
+}
+h2 {
+	text-transform: uppercase;
+}
+/* start col */
+.col-md-2, .col-md-4
+	{
+		padding: 0;
+		margin: 0;
+	}
+/* end col */
+.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+/* start element */
+.element
+	{
+		position: relative;
+		height: 60px;
+	}
+/* end element */
+
+/* start title */
+.title h2
+	{
+		color: #7AD03A;
+		font-size: 40px;
+		font-weight: bold;
+		letter-spacing: 4px;
+		padding-bottom: 60px;
+	}
+/* end title */
+
+/* start preloader */
+.preloader
+	{
+		position: fixed;
+  		top: 0;
+  		left: 0;
+  		width: 100%;
+  		height: 100%;
+  		z-index: 99999;
+  		display: -webkit-flex;
+  		display: -ms-flexbox;
+  		display: flex;
+  		-webkit-flex-flow: row nowrap;
+  		    -ms-flex-flow: row nowrap;
+  		        flex-flow: row nowrap;
+  		-webkit-justify-content: center;
+  		    -ms-flex-pack: center;
+  		        justify-content: center;
+  		-webkit-align-items: center;
+  		    -ms-flex-align: center;
+  		        align-items: center;
+  		background: none repeat scroll 0 0 #fff;
+	}
+.sk-spinner-three-bounce.sk-spinner 
+	{
+ 		width: 70px;
+  		text-align: center;
+   }
+.sk-spinner-three-bounce div 
+	{
+  		width: 18px;
+  		height: 18px;
+  		background-color: #7AD03A;
+  		border-radius: 100%;
+  		display: inline-block;
+        -webkit-animation: sk-threeBounceDelay 1.4s infinite ease-in-out;
+                animation: sk-threeBounceDelay 1.4s infinite ease-in-out;
+
+  /* Prevent first frame from flickering when animation starts */
+
+          -webkit-animation-fill-mode: both;
+                  animation-fill-mode: both; 
+    }
+.sk-spinner-three-bounce .sk-bounce1 
+	{
+        -webkit-animation-delay: -0.32s;
+                animation-delay: -0.32s; 
+    }
+
+.sk-spinner-three-bounce .sk-bounce2 
+	{
+       -webkit-animation-delay: -0.16s;
+               animation-delay: -0.16s; 
+    }
+
+@-webkit-keyframes sk-threeBounceDelay {
+  0%, 80%, 100% {
+          -webkit-transform: scale(0);
+                  transform: scale(0); }
+
+  40% {
+          -webkit-transform: scale(1);
+                  transform: scale(1); } }
+
+@keyframes sk-threeBounceDelay {
+  0%, 80%, 100% {
+          -webkit-transform: scale(0);
+                  transform: scale(0); }
+
+  40% {
+          -webkit-transform: scale(1);
+                  transform: scale(1); } }
+/* end preloader */
+
+/* start countdown */
+#countdown
+	{
+  		background: linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+  		color: #ffffff;
+		text-align: center;
+		min-height: 800px;
+		padding: 40px 0 100px 0;
+	}
+#countdown h1
+	{
+		font-size: 80px;
+		font-weight: 700;
+	}
+#countdown h2
+	{
+		font-weight: 300;
+		font-size: 18px;
+		padding-bottom: 40px;
+	}
+#countdown small
+	{
+		font-size: 80px;
+		color: #000;
+		font-weight: bold;
+	}
+ul.countdown
+	{
+		margin: 0;
+		padding: 0;
+	}
+ul.countdown span 
+	{
+		font-size: 40px;
+		text-align: center;
+		display: inline-block;
+	}
+ul.countdown li
+	{
+	border-right: 1px solid #ffffff;
+	font-weight: bold;
+	font-size: 18px;
+	display:inline-block;
+	padding: 0px 40px 0px 40px;
+	}
+ul.countdown li:last-child
+	{
+		border-right: none;
+	}
+ul.countdown li h3
+	{
+		font-size: 18px;
+		font-weight: 300;
+	}
+#countdown .form-control
+	{
+		border: none;
+		border-radius: 0px;
+		box-shadow: none;
+		height: 50px;
+		margin-top: 60px;
+		transition: all 0.4s ease-in-out;
+	}
+#countdown input[type="submit"]
+	{
+		background: #7AD03A;
+		color: #ffffff;
+		transition: all 0.3s ease;
+	}
+#countdown input[type="submit"]:hover {
+	background: #417F12;
+}
+/* end countdown */
+
+/* start features */
+.features
+	{
+		box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+.features .fa
+	{
+		border: 1px solid #7AD03A;
+		border-radius: 50%;
+		color: #7AD03A;
+		font-size: 26px;
+		width: 60px;
+		height: 60px;
+		line-height: 58px;
+		text-align: center;
+	}
+.features h4
+	{
+		color: #000;
+		font-weight: bold;
+		padding-top: 10px;
+	}
+
+/* end features */
+
+/* start team */
+.team
+  {
+    border-top: 1px solid #f2f2f2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+.team .border_right
+  {
+    border-right: 1px solid #f2f2f2;
+  }
+.team .border_bottom
+  {
+   border-bottom: 1px solid #f2f2f2;
+  }
+.team h2
+  {
+    font-weight: 600;
+    padding-bottom: 40px;
+  }
+.team .media
+  {
+    padding: 40px 0 20px 20px;
+  }
+.team .media h5
+  {
+    color: #7AD03A;
+    font-weight: bold;
+    padding-bottom: 8px;
+  }
+.team img
+  {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+  }
+/* end team */
+
+/* start contact */
+.contact
+	{
+  		background: linear-gradient(90deg, #283048 10%, #859398 90%);
+		color: #ffffff;
+		text-align: center;
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+.contact .form-control
+	{
+		background-color: transparent;
+		border: none;
+		border-bottom: #999 solid 1px;
+		box-shadow: none;
+		border-radius: 0px;
+		color: rgb(214, 213, 213);
+		margin-bottom: 20px;
+		padding-left: 0px;
+	}
+.contact input
+	{
+		height: 50px;
+	}
+.contact input[type="submit"]
+	{
+		border: #999 solid 2px;
+		color: #ffffff;
+		font-weight: bold;
+		letter-spacing: 2px;
+		transition: all 0.3s ease;
+	}
+.contact input[type="submit"]:hover {
+	background-color: #7AD03A;
+}
+.contact address
+	{
+		padding-top: 40px;
+		text-align: left;
+	}
+.contact address p
+	{
+		font-size: 14px;
+		font-weight: 400;
+		font-style: italic;		
+	}
+.contact address .fa
+	{
+		border: 1px solid #999;
+		color: #ffffff;
+		font-size: 20px;
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		text-align: center;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		margin-left: 0px;
+	}
+/* end contact */
+
+/* start footer */
+footer
+	{
+		padding: 20px 0 20px 0;
+	}
+footer p
+	{
+		font-weight: 400;
+		padding-top: 10px;
+	}
+.templatemo-copyright {
+	display: inline-block;
+	margin-right: 10px;
+}
+/* end footer */
+
+/* start social icon */
+.social_icon
+  {
+  	display: inline-block;
+    padding: 0;
+    margin: 0;
+  }
+.social_icon li
+  {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+  }
+.social_icon li a
+  {
+    color: #404040;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+  }
+.social_icon li a:hover
+  {
+    background: #7AD03A;
+  }
+/* end social icon */
+
+@media only screen and (max-width: 991px) {
+	.templatemo-feature {
+		margin-bottom: 30px;
+	}
+	.title h2 {
+		padding-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#countdown, 
+	.features, 
+	.team,
+	.contact {
+		padding: 40px 0;
+	}
+	#countdown input[type="submit"] {
+		margin-top: 0;
+	}
+	#countdown h1, #countdown small {
+		font-size: 60px;
+	}
+	#countdown h2 {
+		font-size: 13px;
+	}
+	ul.countdown li h3 {
+		font-size: 12px;
+	}
+	#countdown {
+		min-height: 580px;
+	}
+	.title h2 {
+		padding-bottom: 30px;
+	}
+	.team .media {
+		padding-top: 5px;
+	}
+	.team .border_bottom {
+		border-bottom: none;
+	}
+	.team .border_right {
+		border-right: none;
+	}
+}
+
+@media only screen and (max-width: 629px) {
+	ul.countdown li {
+		font-size: 14px;
+		padding: 0 10px;
+	}
+	ul.countdown span {
+		font-size: 20px;
+	}
+}
+
+/* start 360 media */
+@media only screen and ( max-width: 360px ) {
+	#countdown {
+		min-height: 520px;
+	}
+	ul.countdown {
+		margin-bottom: 30px;
+	}
+	ul.countdown li
+		{
+			border-right: 0px;
+			font-weight: bold;
+			font-size: 18px;
+			display:inline-block;
+			padding: 15px;
+		}
+	#countdown .form-control
+		{
+			margin: 0px;
+		}
+	.team .border_right
+  		{
+   			 border-right: 0px;
+  		}
+	.team .border_bottom
+  		{
+  			border-bottom: 0px;
+ 		}
+
+}
+/* end 360 media */
+
+/* start 320 media */
+@media only screen and ( max-width: 320px ) {
+	ul.countdown li
+		{
+			font-weight: bold;
+			font-size: 18px;
+			display:inline-block;
+			margin: 0;
+			padding: 4px;
+		}
+	.team .border_right
+  		{
+   			 border-right: 0px;
+  		}
+	.team .border_bottom
+  		{
+  			border-bottom: 0px;
+ 		 }
+}
+/* end 320 media */
