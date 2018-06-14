@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
+<link  rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}"/>
 <head lang="en">
     <title>Messages : View</title>
 </head>
@@ -19,8 +20,8 @@
             <h6 class="card-subtitle mb-2 text-muted" th:text="${#calendars.format(message.created)}">July 11, 2012 2:17:16 PM CDT</h6>
             <p class="card-text" th:text="${message.text}">A detailed message that is longer than the summary.</p>
             <p class="card-gender" th:text="${message.gender}">sex.</p>
-            <a class="card-link" href="messages" th:href="@{'/delete/' + ${message.id}}">delete</a>
-            <a class="card-link" href="form.html" th:href="@{'/modify/' + ${message.id}}"> modify</a>
+            <a class="btn btn-primary btn-sm" href="messages" th:href="@{'/delete/' + ${message.id}}">delete</a>
+            <a class="btn btn-primary btn-sm" href="form.html" th:href="@{'/modify/' + ${message.id}}"> modify</a>
         </div>
     </div>
 </div>

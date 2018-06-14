@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
+<link  rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}"/>
 <head lang="en">
     <title>Messages : View all</title>
 </head>
@@ -16,11 +17,12 @@
             <th>ID</th>
             <th>Created</th>
             <th>Summary</th>
+            <th>Sex</th>
         </tr>
         </thead>
         <tbody>
         <tr th:if="${messages.empty}">
-            <td colspan="3">No messages</td>
+            <td colspan="4">No messages</td>
         </tr>
         <tr th:each="message : ${messages}">
             <td th:text="${message.id}">1</td>
@@ -28,6 +30,7 @@
                 2012 2:17:16 PM CDT</td>
             <td><a href="view.html" th:href="@{'/' + ${message.id}}"
                    th:text="${message.summary}"> The summary </a></td>
+            <td th:text="${message.gender}">Sex</td>
         </tr>
         </tbody>
     </table>
