@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot-examples.iml" filepath="$PROJECT_DIR$/springboot-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-redis-docker/springboot-redis-docker.iml" filepath="$PROJECT_DIR$/springboot-redis-docker/springboot-redis-docker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-web-thymeleaf/springboot-web-thymeleaf.iml" filepath="$PROJECT_DIR$/springboot-web-thymeleaf/springboot-web-thymeleaf.iml" />
     </modules>
   </component>
 </project>

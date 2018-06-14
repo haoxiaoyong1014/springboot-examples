@@ -7,11 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-rabbitmq" />
+        <module name="springboot-redis-docker" />
+        <module name="springboot-web-thymeleaf" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="springboot-examples" target="1.6" />
       <module name="springboot-rabbitmq" target="1.8" />
+      <module name="springboot-redis-docker" target="1.8" />
+      <module name="springboot-web-thymeleaf" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
