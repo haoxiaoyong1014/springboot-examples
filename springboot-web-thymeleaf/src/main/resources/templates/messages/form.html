@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <link  rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}"/>
+<link rel="stylesheet" type="text/css" th:href="@{/css/font-awesome.min.css}"/>
 <head lang="en">
     <title>Messages : Create</title>
 </head>
@@ -25,7 +26,7 @@
             <label for="text">Message</label>
             <textarea th:field="*{text}" th:class="${'form-control' + (#fields.hasErrors('text') ? ' is-invalid' : '')}"></textarea>
         </div>
-        <div class="form-group col-lg-6">
+        <div class="form-group">
             <label >性别<span>&nbsp;Sex:</span></label>
             <select th:field="*{gender}" class="form-control"
                     data-required="true">
@@ -33,6 +34,19 @@
                 <option value="女" th:text="'女'" th:selected="selected" >女</option>
                 <option value="">请选择</option>
             </select>
+        </div>
+        <div class="form-group">
+            <label >今晚吃鸡<span>&nbsp;Eat chicken:</span></label>
+            <ul>
+                <li class="fl">
+                    <input type="radio" name="enableFlag"   th:checked="${message.enableFlag== true}" value="true" style="margin: 10px;"/>
+                    <label class="iRadioLable" style="width:auto; max-width:auto;margin: 0">是</label>
+                </li>
+                <li class="fl">
+                    <input type="radio" name="enableFlag" th:checked="${message.enableFlag==false}" value="false" style="margin: 10px"/>
+                    <label class="iRadioLable" style="width:auto; max-width:auto;margin: 0">否</label>
+                </li>
+            </ul>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>

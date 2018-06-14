@@ -18,11 +18,12 @@
             <th>Created</th>
             <th>Summary</th>
             <th>Sex</th>
+            <th>Eat chicken</th>
         </tr>
         </thead>
         <tbody>
         <tr th:if="${messages.empty}">
-            <td colspan="4">No messages</td>
+            <td colspan="5">No messages</td>
         </tr>
         <tr th:each="message : ${messages}">
             <td th:text="${message.id}">1</td>
@@ -31,6 +32,8 @@
             <td><a href="view.html" th:href="@{'/' + ${message.id}}"
                    th:text="${message.summary}"> The summary </a></td>
             <td th:text="${message.gender}">Sex</td>
+            <td th:text="${message.enableFlag==true}? '是':'否'">Eat chicken</td>
+           <!-- <td th:if="${message.enableFlag==true}" th:text="是">Eat chicken</td>-->
         </tr>
         </tbody>
     </table>

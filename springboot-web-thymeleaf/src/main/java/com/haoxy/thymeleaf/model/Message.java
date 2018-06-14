@@ -20,6 +20,16 @@ public class Message {
 
     private String gender;
 
+    private boolean enableFlag;
+
+    public boolean isEnableFlag() {
+        return enableFlag;
+    }
+
+    public void setEnableFlag(boolean enableFlag) {
+        this.enableFlag = enableFlag;
+    }
+
     public String getGender() {
         return gender;
     }

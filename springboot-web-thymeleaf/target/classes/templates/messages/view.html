@@ -20,6 +20,7 @@
             <h6 class="card-subtitle mb-2 text-muted" th:text="${#calendars.format(message.created)}">July 11, 2012 2:17:16 PM CDT</h6>
             <p class="card-text" th:text="${message.text}">A detailed message that is longer than the summary.</p>
             <p class="card-gender" th:text="${message.gender}">sex.</p>
+            <p class="card-gender" th:text="${message.enableFlag}">sex.</p>
             <a class="btn btn-primary btn-sm" href="messages" th:href="@{'/delete/' + ${message.id}}">delete</a>
             <a class="btn btn-primary btn-sm" href="form.html" th:href="@{'/modify/' + ${message.id}}"> modify</a>
         </div>
