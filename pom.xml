@@ -17,6 +17,8 @@
         <module>springboot-rabbitmq</module>
         <module>springboot-redis-docker</module>
         <module>springboot-web-thymeleaf</module>
+        <module>springboot-oauth2</module>
+
     </modules>
 
 </project>
