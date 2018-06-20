@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32dd44db-262c-48a2-85c8-0d846864dcdb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-oauth2-authorization-server/README.md" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/img/v8.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/springboot-oauth2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/springboot-oauth2-authorization-server/README.md" afterPath="$PROJECT_DIR$/springboot-oauth2-authorization-server/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,16 +69,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -101,8 +86,8 @@
         <entry file="file://$PROJECT_DIR$/springboot-oauth2-authorization-server/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="250">
-                <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <first_editor relative-caret-position="575">
+                <caret line="23" column="90" lean-forward="false" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="90" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -110,57 +95,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppLoginInSuccessHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-oauth2-authorization-server/src/main/java/cn/merryyou/security/handler/AppLoginInSuccessHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="73" column="79" lean-forward="false" selection-start-line="73" selection-start-column="79" selection-end-line="73" selection-end-column="79" />
-              <folding />
-            </state>
+      <file leaf-file-name="v5.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/img/v5.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TokenRequest.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.2.RELEASE/spring-security-oauth2-2.3.2.RELEASE.jar!/org/springframework/security/oauth2/provider/TokenRequest.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="42" />
-              <folding>
-                <marker date="1529047166000" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1529047166000" expanded="false" signature="168:259" ph="..." />
-                <marker date="1529047166000" expanded="true" signature="369:376" ph="{}" />
-                <marker date="1529047166000" expanded="true" signature="502:665" ph="{...}" />
-                <marker date="1529047166000" expanded="false" signature="699:710" ph=" { " />
-                <marker date="1529047166000" expanded="false" signature="732:738" ph=" }" />
-                <marker date="1529047166000" expanded="false" signature="786:797" ph=" { " />
-                <marker date="1529047166000" expanded="false" signature="824:830" ph=" }" />
-                <marker date="1529047166000" expanded="false" signature="876:887" ph=" { " />
-                <marker date="1529047166000" expanded="false" signature="915:921" ph=" }" />
-                <marker date="1529047166000" expanded="false" signature="973:984" ph=" { " />
-                <marker date="1529047166000" expanded="false" signature="1006:1012" ph=" }" />
-                <marker date="1529047166000" expanded="true" signature="1090:1152" ph="{...}" />
-                <marker date="1529047166000" expanded="true" signature="1221:1696" ph="{...}" />
-              </folding>
-            </state>
+      <file leaf-file-name="v6.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/img/v6.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringBoot2Oauth2Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-oauth2-authorization-server/src/test/java/cn/merryyou/security/SpringBoot2Oauth2Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="65" column="85" lean-forward="false" selection-start-line="65" selection-start-column="85" selection-end-line="65" selection-end-column="85" />
-              <folding />
-            </state>
+      <file leaf-file-name="v4.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/img/v4.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TokenStoreConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-oauth2-resource-server/src/main/java/cn/merryyou/security/config/TokenStoreConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="v7.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/img/v7.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="425">
+                <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="137" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -489,11 +460,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/img" />
       <recent name="$PROJECT_DIR$/springboot-oauth2-authorization-server" />
       <recent name="$PROJECT_DIR$/springboot-oauth2" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/springboot-web-thymeleaf/src/main/resources/static/css" />
-      <recent name="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -718,7 +689,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527143375727</updated>
       <workItem from="1527143377787" duration="16179000" />
-      <workItem from="1529402834441" duration="2386000" />
+      <workItem from="1529402834441" duration="3185000" />
     </task>
     <servers />
   </component>
@@ -755,7 +726,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24230000" />
+    <option name="totallyTimeSpent" value="25029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -779,9 +750,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19762258" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19762258" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2154532" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2154532" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18141946" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
@@ -815,42 +786,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-redis-docker/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1350">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-web-thymeleaf/src/main/java/com/haoxy/thymeleaf/repository/MessageRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-web-thymeleaf/src/main/resources/static/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-web-thymeleaf/src/main/resources/templates/fragments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="95" lean-forward="false" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-web-thymeleaf/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-web-thymeleaf/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -1220,11 +1155,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/img/v7.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="425">
+            <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="137" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/img/v4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/img/v6.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/img/v5.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-oauth2-authorization-server/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="250">
-            <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <first_editor relative-caret-position="575">
+            <caret line="23" column="90" lean-forward="false" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="90" />
             <folding />
           </first_editor>
           <second_editor />
