@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/springboot-oauth2/authorization-server/authorization-server.iml" filepath="$PROJECT_DIR$/springboot-oauth2/authorization-server/authorization-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-oauth2/resource-server/resource-server.iml" filepath="$PROJECT_DIR$/springboot-oauth2/resource-server/resource-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-examples.iml" filepath="$PROJECT_DIR$/springboot-examples.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-oauth2/springboot-oauth2.iml" filepath="$PROJECT_DIR$/springboot-oauth2/springboot-oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-oauth2-authorization-server/springboot-oauth2-authorization-server.iml" filepath="$PROJECT_DIR$/springboot-oauth2-authorization-server/springboot-oauth2-authorization-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-oauth2-resource-server/springboot-oauth2-resource-server.iml" filepath="$PROJECT_DIR$/springboot-oauth2-resource-server/springboot-oauth2-resource-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-redis-docker/springboot-redis-docker.iml" filepath="$PROJECT_DIR$/springboot-redis-docker/springboot-redis-docker.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-web-thymeleaf/springboot-web-thymeleaf.iml" filepath="$PROJECT_DIR$/springboot-web-thymeleaf/springboot-web-thymeleaf.iml" />

@@ -4,7 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-oauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/authorization-server/pom.xml" />
+        <option value="$PROJECT_DIR$/resource-server/pom.xml" />
       </list>
     </option>
   </component>

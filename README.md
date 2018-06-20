@@ -7,3 +7,12 @@ spring boot 集成各技术案例
 
 2018/6/13 添加 springboot-web-thymeleaf
 
+2018/6/20 添加 springboot-oauth2
+
+* springboot-oauth2 包括: springboot-oauth2-authorization-server(认证服务)和springboot-oauth2-resource-server(资源服务)
+
+
+
+
+
+
