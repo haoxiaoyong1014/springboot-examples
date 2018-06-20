@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="32dd44db-262c-48a2-85c8-0d846864dcdb" name="Default" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/springboot-oauth2/README.md" afterPath="$PROJECT_DIR$/springboot-oauth2/README.md" />
       <change beforePath="$PROJECT_DIR$/target/tomca/logs/access_log.2018-06-14.log" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2018-06-13.log" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2018-06-14.log" afterPath="" />
@@ -38,49 +43,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MerryyouJwtTokenEnhancer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-oauth2/authorization-server/src/main/java/cn/merryyou/security/security/jwt/MerryyouJwtTokenEnhancer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#721#737#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-oauth2/authorization-server/src/main/java/cn/merryyou/security/security/SecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MerryyouAuthorizationServerConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-oauth2/authorization-server/src/main/java/cn/merryyou/security/server/MerryyouAuthorizationServerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-207">
-              <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MerryyouResourceServerConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-oauth2/authorization-server/src/main/java/cn/merryyou/security/server/MerryyouResourceServerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="JsonUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-oauth2/authorization-server/src/main/java/cn/merryyou/security/utils/JsonUtil.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringBoot2Oauth2Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SpringBoot2Oauth2Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-oauth2/authorization-server/src/test/java/cn/merryyou/security/SpringBoot2Oauth2Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1146">
@@ -131,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyUserDetailsService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-oauth2/authorization-server/src/main/java/cn/merryyou/security/security/MyUserDetailsService.java">
+      <file leaf-file-name="TokenStoreConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-oauth2/resource-server/src/main/java/cn/merryyou/security/config/TokenStoreConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="900">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,10 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/test/java/com/hxy/rabbitmq/FanoutTest.java" />
-        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/test/java/com/hxy/rabbitmq/HelloTest.java" />
-        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/test/java/com/hxy/rabbitmq/ManyTest.java" />
-        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/test/java/com/hxy/rabbitmq/TopicTest.java" />
         <option value="$PROJECT_DIR$/springboot-rabbitmq/src/test/java/com/hxy/rabbitmq/ObjectTest.java" />
         <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/RabbitmqApp.java" />
         <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/fanout/FanoutReceiverA.java" />
@@ -225,6 +183,10 @@
         <option value="$PROJECT_DIR$/springboot-oauth2/authorization-server/src/main/java/cn/merryyou/security/utils/JsonUtil.java" />
         <option value="$PROJECT_DIR$/springboot-oauth2/authorization-server/src/main/java/cn/merryyou/security/SpringBoot2Oauth2Application.java" />
         <option value="$PROJECT_DIR$/springboot-oauth2/authorization-server/src/test/java/cn/merryyou/security/SpringBoot2Oauth2Test.java" />
+        <option value="$PROJECT_DIR$/springboot-oauth2/resource-server/src/main/java/cn/merryyou/security/config/TokenStoreConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-oauth2/resource-server/src/main/java/cn/merryyou/security/SpringBoot2Oauth2ResourceApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-oauth2/resource-server/src/main/java/cn/merryyou/security/resource/MerryyouResourceServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/springboot-oauth2/README.md" />
       </list>
     </option>
   </component>
@@ -318,213 +280,6 @@
               <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
               <item name="springboot-oauth2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="jwt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -795,7 +550,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527143375727</updated>
       <workItem from="1527143377787" duration="16179000" />
-      <workItem from="1529402834441" duration="502000" />
+      <workItem from="1529402834441" duration="627000" />
     </task>
     <servers />
   </component>
@@ -832,11 +587,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22346000" />
+    <option name="totallyTimeSpent" value="22471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="true" content_ui="tabs" />
@@ -892,41 +646,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/test/java/com/hxy/rabbitmq/TopicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/config/TopicRabbitConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="42" column="109" lean-forward="false" selection-start-line="42" selection-start-column="109" selection-end-line="42" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/topic/TopicReceiver1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/topic/TopicSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="77" lean-forward="false" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.7.3.RELEASE/spring-amqp-1.7.3.RELEASE.jar!/org/springframework/amqp/core/AmqpTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/hello/HelloSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -963,6 +682,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-386">
           <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1192,8 +912,8 @@
         <state relative-caret-position="400">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#721#737#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#721#737#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1267,6 +987,49 @@
         <state relative-caret-position="-1146">
           <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-oauth2/resource-server/src/main/java/cn/merryyou/security/config/TokenStoreConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-oauth2/resource-server/src/main/java/cn/merryyou/security/SpringBoot2Oauth2ResourceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-oauth2/resource-server/src/main/java/cn/merryyou/security/resource/MerryyouResourceServerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-oauth2/resource-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-oauth2/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="600">
+            <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
