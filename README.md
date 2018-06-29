@@ -7,9 +7,9 @@ spring boot 集成各技术案例
 
 2018/6/13 添加 springboot-web-thymeleaf
 
-2018/6/20 添加 springboot-oauth2
+2018/6/20 添加 springboot2-oauth2(springBoot版本:2.0.1.RELEASE)
 
-* springboot-oauth2 包括: springboot-oauth2-authorization-server(认证服务)和springboot-oauth2-resource-server(资源服务)
+* springboot2-oauth2 包括: springboot-oauth2-authorization-server(认证服务)和springboot-oauth2-resource-server(资源服务)
 
 2018/6/30 添加 springboot-mybatis-ehcache (使用EhcacheCache做二级缓存,使用pageHelper做分页插件)
 
