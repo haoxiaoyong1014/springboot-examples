@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot-examples.iml" filepath="$PROJECT_DIR$/springboot-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-ehcache/springboot-mybatis-ehcache.iml" filepath="$PROJECT_DIR$/springboot-mybatis-ehcache/springboot-mybatis-ehcache.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-oauth2-authorization-server/springboot-oauth2-authorization-server.iml" filepath="$PROJECT_DIR$/springboot-oauth2-authorization-server/springboot-oauth2-authorization-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-oauth2-resource-server/springboot-oauth2-resource-server.iml" filepath="$PROJECT_DIR$/springboot-oauth2-resource-server/springboot-oauth2-resource-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" />

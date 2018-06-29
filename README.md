@@ -11,7 +11,7 @@ spring boot 集成各技术案例
 
 * springboot-oauth2 包括: springboot-oauth2-authorization-server(认证服务)和springboot-oauth2-resource-server(资源服务)
 
-
+2018/6/30 添加 springboot-mybatis-ehcache (使用EhcacheCache做二级缓存,使用pageHelper做分页插件)
 
 
 
