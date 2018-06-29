@@ -11,4 +11,6 @@ target
 tmp
 
 *.bak
+
 e:*
+e:\ehcache
