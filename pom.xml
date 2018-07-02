@@ -21,6 +21,7 @@
         <module>springboot-oauth2-resource-server</module>
         <module>springboot-rabbitmq-ack</module>
 
+
     </modules>
 
 </project>

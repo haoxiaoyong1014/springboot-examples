@@ -3,6 +3,10 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/../rabbitmq-queue/springboot-rabbitmq-ack" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+<<<<<<< HEAD
+=======
+    <file url="file://$PROJECT_DIR$/springboot-mybatis-ehcache" charset="UTF-8" />
+>>>>>>> 3545cf9f7df9cdaa6163c172aaacba95a9cbf102
     <file url="file://$PROJECT_DIR$/springboot-oauth2-authorization-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-oauth2-resource-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-rabbitmq" charset="UTF-8" />
