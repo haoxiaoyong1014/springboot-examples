@@ -6,29 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-ehcache" />
         <module name="springboot-mybatis-myehcache" />
         <module name="springboot-oauth2-authorization-server" />
         <module name="springboot-oauth2-resource-server" />
         <module name="springboot-rabbitmq" />
+        <module name="springboot-rabbitmq-ack" />
         <module name="springboot-redis-docker" />
         <module name="springboot-web-thymeleaf" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
-      <module name="authorization-server" target="1.8" />
-      <module name="resource-server" target="1.8" />
-      <module name="springboot-ehcache" target="1.6" />
+    <bytecodeTargetLevel>
       <module name="springboot-examples" target="1.6" />
-      <module name="springboot-mybatis-ehcache" target="1.6" />
       <module name="springboot-mybatis-myehcache" target="1.6" />
-      <module name="springboot-oauth2" target="1.8" />
       <module name="springboot-oauth2-authorization-server" target="1.8" />
       <module name="springboot-oauth2-resource-server" target="1.8" />
       <module name="springboot-rabbitmq" target="1.8" />
+      <module name="springboot-rabbitmq-ack" target="1.8" />
       <module name="springboot-redis-docker" target="1.8" />
       <module name="springboot-web-thymeleaf" target="1.6" />
-      <module name="springboot2.0-oauth2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

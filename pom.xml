@@ -19,6 +19,7 @@
         <module>springboot-web-thymeleaf</module>
         <module>springboot-oauth2-authorization-server</module>
         <module>springboot-oauth2-resource-server</module>
+        <module>springboot-rabbitmq-ack</module>
 
 
     </modules>
