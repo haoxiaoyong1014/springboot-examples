@@ -17,7 +17,8 @@ import java.io.IOException;
 @Component
 public class Receiver {
 
-    private static final Logger log= LoggerFactory.getLogger(Receiver.class);
+    private static final Logger log = LoggerFactory.getLogger(Receiver.class);
+
     /**
      * DIRECT模式.
      *
@@ -28,7 +29,7 @@ public class Receiver {
     @RabbitListener(queues = {"DIRECT_QUEUE"})
     public void message(Message message, Channel channel) throws IOException {
         channel.basicAck(message.getMessageProperties().getDeliveryTag(), true);
-        log.debug("DIRECT "+new String (message.getBody()));
+        log.debug("DIRECT " + new String(message.getBody()));
     }
 
     /**
@@ -41,7 +42,7 @@ public class Receiver {
     @RabbitListener(queues = {"FANOUT_QUEUE_A"})
     public void on(Message message, Channel channel) throws IOException {
         channel.basicAck(message.getMessageProperties().getDeliveryTag(), true);
-        log.debug("FANOUT_QUEUE_A "+new String(message.getBody()));
+        log.debug("FANOUT_QUEUE_A " + new String(message.getBody()));
     }
 
     /**
@@ -54,7 +55,7 @@ public class Receiver {
     @RabbitListener(queues = {"FANOUT_QUEUE_B"})
     public void t(Message message, Channel channel) throws IOException {
         channel.basicAck(message.getMessageProperties().getDeliveryTag(), true);
-        log.debug("FANOUT_QUEUE_B "+new String(message.getBody()));
+        log.debug("FANOUT_QUEUE_B " + new String(message.getBody()));
     }
 
 }

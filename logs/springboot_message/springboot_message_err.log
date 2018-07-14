@@ -68,3 +68,5 @@ Action:
 
 Verify the connector's configuration, identify and stop any process that's listening on port 9082, or configure this application to listen on another port.
 
+2018-07-03 14:08:52.562 ERROR [AMQP Connection 118.190.40.58:5672] o.s.amqp.rabbit.connection.CachingConnectionFactory.log:1248 - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - unknown delivery tag 1, class-id=60, method-id=80)
+2018-07-03 14:14:55.242 ERROR [AMQP Connection 118.190.40.58:5672] o.s.amqp.rabbit.connection.CachingConnectionFactory.log:1248 - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no exchange 'DIRECT_EXCHANG' in vhost '/', class-id=60, method-id=40)

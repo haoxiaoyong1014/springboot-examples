@@ -13,6 +13,6 @@ spring boot 集成各技术案例
 
 2018/6/30 添加 springboot-mybatis-ehcache (使用EhcacheCache做二级缓存,使用pageHelper做分页插件)
 
-
+2018/7/14 添加 springboot-websocket (在线人数统计,消息发送,一对一,一对多发送消息)
 
 
