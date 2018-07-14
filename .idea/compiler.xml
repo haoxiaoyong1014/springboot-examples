@@ -13,7 +13,6 @@
         <module name="springboot-rabbitmq-ack" />
         <module name="springboot-redis-docker" />
         <module name="springboot-web-thymeleaf" />
-        <module name="springboot-websocket" />
         <module name="springbootwebsocket" />
       </profile>
     </annotationProcessing>

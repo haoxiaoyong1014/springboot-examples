@@ -10,7 +10,6 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq-ack/springboot-rabbitmq-ack.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq-ack/springboot-rabbitmq-ack.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-redis-docker/springboot-redis-docker.iml" filepath="$PROJECT_DIR$/springboot-redis-docker/springboot-redis-docker.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-web-thymeleaf/springboot-web-thymeleaf.iml" filepath="$PROJECT_DIR$/springboot-web-thymeleaf/springboot-web-thymeleaf.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" filepath="$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" />
     </modules>
   </component>
 </project>
