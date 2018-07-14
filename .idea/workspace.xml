@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c6e9a6d-3cd1-4308-a303-4e8d2a25fc2a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/logs/springboot_message/springboot_message_err.log" afterPath="$PROJECT_DIR$/logs/springboot_message/springboot_message_err.log" />
-      <change beforePath="$PROJECT_DIR$/logs/springboot_message/springboot_message_other.log" afterPath="$PROJECT_DIR$/logs/springboot_message/springboot_message_other.log" />
-      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/comsumer/Receiver.java" afterPath="$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/comsumer/Receiver.java" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/springboot-websocket" afterPath="$PROJECT_DIR$/springboot-websocket" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springboot-rabbitmq-ack/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-rabbitmq/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-oauth2-resource-server/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-oauth2-authorization-server/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-mybatis-myehcache/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-web-thymeleaf/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-redis-docker/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-websocket/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,22 +28,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="525">
+              <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-ack/pom.xml">
+        <entry file="file://$PROJECT_DIR$/springboot-websocket/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+            <state relative-caret-position="175">
+              <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="35" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-websocket/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="50">
+                <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.gif" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-websocket/demo.gif">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buile_image.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-websocket/buile_image.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="375">
+                <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -42,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/RabbitmqApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+              <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
               <folding>
                 <element signature="e#359#360#0" expanded="true" />
                 <element signature="e#420#421#0" expanded="true" />
@@ -51,7 +104,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SendController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/controller/SendController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
@@ -64,48 +117,8 @@
       <file leaf-file-name="Receiver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/comsumer/Receiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35600">
-              <caret line="1513" column="10" lean-forward="false" selection-start-line="1513" selection-start-column="10" selection-end-line="1513" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kotlinc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/kotlinc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="misc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uiDesigner.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="625">
+              <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -114,8 +127,8 @@
       <file leaf-file-name="RabbitConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/config/RabbitConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+            <state relative-caret-position="825">
+              <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
               <folding>
                 <element signature="e#2431#2432#0" expanded="true" />
                 <element signature="e#2525#2526#0" expanded="true" />
@@ -156,7 +169,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hxy/RabbitMQ/msgConfirm/ConfirmConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hxy/RabbitMQ/msgConfirm/Producer.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/hxy/test/HelloApplicationTests.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/actuatora/Receiver.java" />
         <option value="$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/RabbitmqApp.java" />
@@ -167,6 +179,9 @@
         <option value="$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/config/RabbitConfig.java" />
         <option value="$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/comsumer/Receiver.java" />
         <option value="$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/controller/SendController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/springboot-websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -622,6 +637,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -630,13 +647,46 @@
               <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-websocket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -672,7 +722,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Application (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -720,6 +770,29 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.suyu.websocket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.suyu.websocket.Application" />
+      <module name="springboot-websocket" />
+      <envs />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.suyu.websocket.Application" />
+      <module name="springbootwebsocket" />
+      <envs />
+    </configuration>
+    <configuration name="RabbitmqApp (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hxy.rabbitmq.RabbitmqApp" />
+      <module name="springboot-rabbitmq" />
+      <envs />
+    </configuration>
     <configuration name="RabbitmqApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -729,6 +802,24 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.haoxy.rabbitmq.RabbitmqApp" />
       <module name="springboot-rabbitmq-ack" />
+      <envs />
+    </configuration>
+    <configuration name="SpringBoot2Oauth2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.merryyou.security.SpringBoot2Oauth2Application" />
+      <module name="springboot-oauth2-authorization-server" />
+      <envs />
+    </configuration>
+    <configuration name="SpringBootDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.haoxy.example.SpringBootDemoApplication" />
+      <module name="springboot-redis-docker" />
+      <envs />
+    </configuration>
+    <configuration name="ThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.haoxy.thymeleaf.ThymeleafApplication" />
+      <module name="springboot-web-thymeleaf" />
       <envs />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -764,9 +855,19 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.RabbitmqApp" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.RabbitmqApp (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.SpringBoot2Oauth2Application" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.ThymeleafApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.SpringBootDemoApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.Application" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.Application (1)" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.RabbitmqApp" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.RabbitmqApp" />
       </list>
     </recent_temporary>
   </component>
@@ -784,11 +885,12 @@
       <option name="presentableId" value="Default" />
       <updated>1530502204562</updated>
       <workItem from="1530502206871" duration="9203000" />
+      <workItem from="1531532435353" duration="508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11718000" />
+    <option name="totallyTimeSpent" value="12226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -805,7 +907,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39970282" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
@@ -813,18 +914,19 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.078751855" sideWeight="0.4984051" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18424962" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22049442" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31723624" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22248805" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -838,79 +940,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/fanout/FanoutReceiverA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-149">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/config/FanoutRabbitConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/comsumer/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/model/InfoCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/model/resInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/model/InfoCode.java" />
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/model/resInfo.java" />
     <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/model/ResponseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#591#592#0" expanded="false" />
-            <element signature="e#624#625#0" expanded="false" />
-            <element signature="e#654#655#0" expanded="false" />
-            <element signature="e#680#681#0" expanded="false" />
-            <element signature="e#713#714#0" expanded="false" />
-            <element signature="e#742#743#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -918,9 +953,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
           <caret line="30" column="99" lean-forward="false" selection-start-line="30" selection-start-column="99" selection-end-line="30" selection-end-column="99" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -965,7 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -973,7 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,8 +1034,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35600">
-          <caret line="1513" column="10" lean-forward="false" selection-start-line="1513" selection-start-column="10" selection-end-line="1513" selection-end-column="10" />
+        <state relative-caret-position="36175">
+          <caret line="1447" column="10" lean-forward="false" selection-start-line="1447" selection-start-column="10" selection-end-line="1447" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1048,205 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="1238" column="13" lean-forward="false" selection-start-line="1238" selection-start-column="13" selection-end-line="1238" selection-end-column="13" />
-          <folding>
-            <marker date="1525220420000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1525220420000" expanded="false" signature="160:4203" ph="..." />
-            <marker date="1525220420000" expanded="true" signature="6612:7607" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="6947:7063" ph="getReplyToAddress(request, reply) → {" />
-            <marker date="1525220420000" expanded="false" signature="7143:7158" ph="}" />
-            <marker date="1525220420000" expanded="true" signature="7672:7749" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="7793:7804" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="7859:7865" ph=" }" />
-            <marker date="1525220420000" expanded="false" signature="7911:7922" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="7971:7977" ph=" }" />
-            <marker date="1525220420000" expanded="false" signature="8010:8021" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="8042:8048" ph=" }" />
-            <marker date="1525220420000" expanded="false" signature="8098:8109" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="8138:8144" ph=" }" />
-            <marker date="1525220420000" expanded="false" signature="8179:8190" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="8213:8219" ph=" }" />
-            <marker date="1525220420000" expanded="false" signature="8259:8270" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="8289:8295" ph=" }" />
-            <marker date="1525220420000" expanded="false" signature="8341:8352" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="8377:8383" ph=" }" />
-            <marker date="1525220420000" expanded="true" signature="8389:8407" ph="/**...*/" />
-            <marker date="1525220420000" expanded="false" signature="8471:8482" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="8525:8531" ph=" }" />
-            <marker date="1525220420000" expanded="true" signature="8586:8678" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="8734:8745" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="8782:8788" ph=" }" />
-            <marker date="1525220420000" expanded="false" signature="8840:8851" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="8884:8890" ph=" }" />
-            <marker date="1525220420000" expanded="false" signature="8962:8973" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="9014:9020" ph=" }" />
-            <marker date="1525220420000" expanded="true" signature="9123:9299" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="9350:9361" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="9390:9396" ph=" }" />
-            <marker date="1525220420000" expanded="true" signature="9481:9695" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="9777:9985" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="10034:10045" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="10103:10109" ph=" }" />
-            <marker date="1525220420000" expanded="true" signature="10182:10332" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="10445:10548" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="10667:10776" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="10835:11058" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="11121:11132" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="11167:11173" ph=" }" />
-            <marker date="1525220420000" expanded="false" signature="11248:11259" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="11300:11306" ph=" }" />
-            <marker date="1525220420000" expanded="true" signature="11386:11550" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="11652:11998" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="12004:12022" ph="/**...*/" />
-            <marker date="1525220420000" expanded="true" signature="12136:12215" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="12315:12655" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="12764:12845" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="12904:12915" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="12952:12958" ph=" }" />
-            <marker date="1525220420000" expanded="false" signature="13024:13035" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="13076:13082" ph=" }" />
-            <marker date="1525220420000" expanded="true" signature="13151:13232" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="13285:13793" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="13859:14731" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="14772:14878" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="14921:16199" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="15314:15422" ph="doInRabbit(channel) → {" />
-            <marker date="1525220420000" expanded="false" signature="15554:15577" ph="}" />
-            <marker date="1525220420000" expanded="true" signature="16260:16327" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="16407:16469" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="16566:16646" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="16800:17348" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="16823:16927" ph="doInRabbit(channel) → {" />
-            <marker date="1525220420000" expanded="false" signature="17234:17249" ph="}" />
-            <marker date="1525220420000" expanded="true" signature="17452:18591" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="18660:18759" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="18765:18783" ph="/**...*/" />
-            <marker date="1525220420000" expanded="true" signature="18911:18983" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="19096:19189" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="19277:19371" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="19492:19580" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="19685:19774" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="19912:20017" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="20130:20229" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="20361:20478" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="20643:20754" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="20903:21015" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="21197:21615" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="21667:21758" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="21805:21935" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="21999:23087" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="22038:22146" ph="doInRabbit(channel) → {" />
-            <marker date="1525220420000" expanded="false" signature="22968:22983" ph="}" />
-            <marker date="1525220420000" expanded="true" signature="23157:23315" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="23394:24785" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="23433:23539" ph="doInRabbit(channel) → {" />
-            <marker date="1525220420000" expanded="false" signature="24762:24777" ph="}" />
-            <marker date="1525220420000" expanded="true" signature="24846:24917" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="24994:25072" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="25151:25237" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="25334:25563" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="25668:25747" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="25870:25971" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="26112:26213" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="26394:26659" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="26453:26559" ph="getReplyToAddress(request, reply) → {" />
-            <marker date="1525220420000" expanded="false" signature="26636:26651" ph="}" />
-            <marker date="1525220420000" expanded="true" signature="26814:26917" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="27090:27181" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="27375:32704" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="27414:27520" ph="doInRabbit(channel) → {" />
-            <marker date="1525220420000" expanded="false" signature="32585:32600" ph="}" />
-            <marker date="1525220420000" expanded="true" signature="32778:32862" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="32969:33072" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="33165:33261" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="33387:33485" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="33595:33692" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="33835:33928" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="34007:34089" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="34201:34337" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="34435:34529" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="34660:34791" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="34906:35010" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="35158:35284" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="35406:35540" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="35695:35825" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="35966:36112" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="36286:36411" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="36569:36695" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="36886:37132" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="37309:37855" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="37920:38067" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="38194:38651" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="38815:41419" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="38854:38960" ph="doInRabbit(channel) → {" />
-            <marker date="1525220420000" expanded="true" signature="39962:40655" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="40110:40637" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="41305:41320" ph="}" />
-            <marker date="1525220420000" expanded="true" signature="41579:44330" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="41764:41870" ph="doInRabbit(channel) → {" />
-            <marker date="1525220420000" expanded="false" signature="44216:44231" ph="}" />
-            <marker date="1525220420000" expanded="true" signature="44550:45200" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="45253:45264" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="45321:45327" ph=" }" />
-            <marker date="1525220420000" expanded="true" signature="45431:46199" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="45543:45660" ph="doWithRetry(context) → {" />
-            <marker date="1525220420000" expanded="false" signature="45766:45789" ph="}" />
-            <marker date="1525220420000" expanded="true" signature="46293:48530" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="48620:49027" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="49194:51055" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="51154:51685" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="51753:51891" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="51957:52072" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="52141:52275" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="52384:53023" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="53113:53399" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="53468:53702" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="53780:54232" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="54280:55104" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="55180:55480" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="55640:57355" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="56181:56358" ph="returnedMessage(message, replyCode, replyText, exchange, routingKey) → {" />
-            <marker date="1525220420000" expanded="false" signature="56537:56564" ph="}" />
-            <marker date="1525220420000" expanded="false" signature="57395:57406" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="57442:57448" ph=" }" />
-            <marker date="1525220420000" expanded="false" signature="57487:57498" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="57510:57516" ph=" }" />
-            <marker date="1525220420000" expanded="true" signature="57558:57808" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="57837:57848" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="57865:57871" ph=" }" />
-            <marker date="1525220420000" expanded="true" signature="57916:60469" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="60575:61467" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="60732:61083" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="60810:60909" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="60971:61073" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="61505:61605" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="61644:61722" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="61762:63408" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="61942:61957" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="61996:62006" ph=" }" />
-            <marker date="1525220420000" expanded="false" signature="62047:62062" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="62087:62097" ph=" }" />
-            <marker date="1525220420000" expanded="false" signature="62155:62170" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="62203:62213" ph=" }" />
-            <marker date="1525220420000" expanded="false" signature="62258:62273" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="62302:62312" ph=" }" />
-            <marker date="1525220420000" expanded="false" signature="62378:62393" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="62434:62444" ph=" }" />
-            <marker date="1525220420000" expanded="true" signature="62503:62605" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="62691:62829" ph="{...}" />
-            <marker date="1525220420000" expanded="true" signature="62882:63208" ph="{...}" />
-            <marker date="1525220420000" expanded="false" signature="63250:63265" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="63287:63297" ph=" }" />
-            <marker date="1525220420000" expanded="false" signature="63359:63374" ph=" { " />
-            <marker date="1525220420000" expanded="false" signature="63392:63402" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,7 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="98" column="44" lean-forward="false" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1270,7 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3075">
           <caret line="123" column="16" lean-forward="false" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1278,14 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1084">
           <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="e#591#592#0" expanded="false" />
-            <element signature="e#624#625#0" expanded="false" />
-            <element signature="e#654#655#0" expanded="false" />
-            <element signature="e#680#681#0" expanded="false" />
-            <element signature="e#713#714#0" expanded="false" />
-            <element signature="e#742#743#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1299,7 +1121,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-ack/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
+        <state relative-caret-position="1075">
           <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
           <folding />
         </state>
@@ -1308,7 +1130,7 @@
     <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/RabbitmqApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
           <folding>
             <element signature="e#359#360#0" expanded="true" />
             <element signature="e#420#421#0" expanded="true" />
@@ -1318,8 +1140,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/config/RabbitConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="825">
+          <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
           <folding>
             <element signature="e#2431#2432#0" expanded="true" />
             <element signature="e#2525#2526#0" expanded="true" />
@@ -1331,8 +1153,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/comsumer/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="625">
+          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1341,6 +1163,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="30" column="54" lean-forward="false" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-websocket/demo.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-websocket/buile_image.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-websocket/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="50">
+            <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="375">
+            <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-websocket/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
           <folding />
         </state>
       </provider>

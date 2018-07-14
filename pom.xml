@@ -20,8 +20,6 @@
         <module>springboot-oauth2-authorization-server</module>
         <module>springboot-oauth2-resource-server</module>
         <module>springboot-rabbitmq-ack</module>
-        <module>springboot-websocket</module>
-
     </modules>
 
 </project>
