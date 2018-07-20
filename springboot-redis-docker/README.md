@@ -216,6 +216,8 @@ e68d43860361        souyunku-app:v1     "java -Djava.securit…"   About a minut
 
 浏览器访问：http://127.0.0.1:8181,当然我没有输入127.0.0.1 我是在服务器上直接做的，用的公网IP
 
+![image](https://github.com/haoxiaoyong1014/springboot-examples/raw/master/springboot-redis-docker/src/main/resources/static/images/redis-demo.gif)
+
 ### Docker Compose
 
 Docker Compose 是 Docker 官方编排（Orchestration）项目之一，负责快速在集群中部署分布式应用。

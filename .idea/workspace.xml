@@ -2,136 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c6e9a6d-3cd1-4308-a303-4e8d2a25fc2a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/.gitattributes" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/buile_image.sh" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/demo.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/docker-compose.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/rm_images.sh" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/java/com/suyu/websocket/Application.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/java/com/suyu/websocket/config/WebSocketConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/java/com/suyu/websocket/controller/WebSocketController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/java/com/suyu/websocket/server/SocketServer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/js/request.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui.all.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/css/layui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/css/layui.mobile.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/css/modules/code.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/css/modules/laydate/default/laydate.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/css/modules/layer/default/icon-ext.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/css/modules/layer/default/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/css/modules/layer/default/layer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/css/modules/layer/default/loading-0.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/css/modules/layer/default/loading-1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/css/modules/layer/default/loading-2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/font/iconfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/font/iconfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/font/iconfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/font/iconfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/0.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/10.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/11.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/12.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/13.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/14.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/15.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/16.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/17.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/18.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/19.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/20.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/21.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/22.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/23.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/24.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/25.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/26.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/27.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/28.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/29.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/3.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/30.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/31.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/32.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/33.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/34.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/35.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/36.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/37.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/38.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/39.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/4.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/40.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/41.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/42.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/43.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/44.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/45.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/46.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/47.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/48.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/49.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/5.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/50.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/51.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/52.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/53.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/54.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/55.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/56.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/57.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/58.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/59.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/6.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/60.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/61.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/62.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/63.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/64.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/65.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/66.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/67.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/68.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/69.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/7.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/70.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/71.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/8.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/images/face/9.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/lay/modules/carousel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/lay/modules/code.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/lay/modules/element.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/lay/modules/flow.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/lay/modules/form.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/lay/modules/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/lay/modules/laydate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/lay/modules/layedit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/lay/modules/layer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/lay/modules/laypage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/lay/modules/laytpl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/lay/modules/mobile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/lay/modules/rate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/lay/modules/table.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/lay/modules/tree.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/lay/modules/upload.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/lay/modules/util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/layui.all.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/static/layui/layui.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/templates/admin.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/templates/index.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/springboot-websocket/pom.xml" afterPath="$PROJECT_DIR$/springboot-websocket/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springboot-rabbitmq-ack/target/" />
@@ -154,8 +25,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-websocket/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="71" column="71" lean-forward="false" selection-start-line="71" selection-start-column="71" selection-end-line="71" selection-end-column="71" />
+            <state relative-caret-position="300">
+              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -171,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-websocket/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="100">
+              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -224,12 +95,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SocketServer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SocketServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springboot-websocket/src/main/java/com/suyu/websocket/server/SocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="1119">
+              <caret line="94" column="33" lean-forward="false" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+              <folding>
+                <element signature="e#1711#1712#0" expanded="true" />
+                <element signature="e#1750#1751#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -247,19 +121,19 @@
       <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-websocket/src/main/resources/templates/admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="3775">
+              <caret line="151" column="82" lean-forward="false" selection-start-line="151" selection-start-column="82" selection-end-line="151" selection-end-column="82" />
               <folding>
-                <marker date="1531485004000" expanded="true" signature="3614:3632" ph="..." />
-                <marker date="1531485004000" expanded="true" signature="3698:3708" ph="..." />
-                <marker date="1531485004000" expanded="true" signature="4334:4352" ph="..." />
-                <marker date="1531485004000" expanded="true" signature="4426:4440" ph="..." />
-                <marker date="1531485004000" expanded="true" signature="5167:5185" ph="..." />
-                <marker date="1531485004000" expanded="true" signature="5258:5272" ph="..." />
-                <marker date="1531485004000" expanded="true" signature="6344:6380" ph="..." />
-                <marker date="1531485004000" expanded="true" signature="6449:6486" ph="..." />
-                <marker date="1531485004000" expanded="true" signature="6940:6958" ph="..." />
-                <marker date="1531485004000" expanded="true" signature="7027:7041" ph="..." />
+                <marker date="1531533999000" expanded="true" signature="3614:3632" ph="..." />
+                <marker date="1531533999000" expanded="true" signature="3698:3708" ph="..." />
+                <marker date="1531533999000" expanded="true" signature="4334:4352" ph="..." />
+                <marker date="1531533999000" expanded="true" signature="4426:4440" ph="..." />
+                <marker date="1531533999000" expanded="true" signature="5167:5185" ph="..." />
+                <marker date="1531533999000" expanded="true" signature="5258:5272" ph="..." />
+                <marker date="1531533999000" expanded="true" signature="6324:6360" ph="..." />
+                <marker date="1531533999000" expanded="true" signature="6429:6466" ph="..." />
+                <marker date="1531533999000" expanded="true" signature="6920:6938" ph="..." />
+                <marker date="1531533999000" expanded="true" signature="7007:7021" ph="..." />
               </folding>
             </state>
           </provider>
@@ -307,7 +181,10 @@
         <option value="$PROJECT_DIR$/springboot-rabbitmq-ack/src/main/java/com/haoxy/rabbitmq/controller/SendController.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-websocket/docker-compose.yml" />
         <option value="$PROJECT_DIR$/springboot-websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-websocket/src/main/resources/templates/admin.html" />
+        <option value="$PROJECT_DIR$/springboot-websocket/src/main/java/com/suyu/websocket/server/SocketServer.java" />
       </list>
     </option>
   </component>
@@ -340,8 +217,10 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="170" />
+    <option name="y" value="56" />
     <option name="width" value="2560" />
-    <option name="height" value="1440" />
+    <option name="height" value="1314" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -763,9 +642,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -776,43 +656,12 @@
             <path>
               <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-websocket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-websocket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-websocket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-websocket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-websocket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-web-thymeleaf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -985,12 +834,12 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.RabbitmqApp" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.RabbitmqApp (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.SpringBoot2Oauth2Application" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.ThymeleafApplication" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.SpringBootDemoApplication" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.Application" />
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.RabbitmqApp (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.SpringBoot2Oauth2Application" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.ThymeleafApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.SpringBootDemoApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.Application" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.RabbitmqApp" />
       <item index="6" class="java.lang.String" itemvalue="Spring Boot.Application (1)" />
     </list>
     <recent_temporary>
@@ -1014,12 +863,13 @@
       <option name="presentableId" value="Default" />
       <updated>1530502204562</updated>
       <workItem from="1530502206871" duration="9203000" />
-      <workItem from="1531532435353" duration="1375000" />
+      <workItem from="1531532435353" duration="2771000" />
+      <workItem from="1531703197054" duration="1178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13093000" />
+    <option name="totallyTimeSpent" value="15667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -1037,16 +887,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39970282" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34918275" sideWeight="0.4984051" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34918275" sideWeight="0.4984051" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20876671" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22248805" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11292719" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22248805" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
@@ -1055,6 +904,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1088,7 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,7 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,7 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1112,7 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36175">
           <caret line="1447" column="10" lean-forward="false" selection-start-line="1447" selection-start-column="10" selection-end-line="1447" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1199,7 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1075">
           <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1218,12 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-          <folding>
-            <element signature="e#2431#2432#0" expanded="false" />
-            <element signature="e#2525#2526#0" expanded="false" />
-            <element signature="e#2653#2654#0" expanded="false" />
-            <element signature="e#2720#2721#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1231,7 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
           <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1239,7 +1077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="30" column="54" lean-forward="false" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1253,7 +1090,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="375">
             <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1271,6 +1107,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-websocket/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-websocket/buile_image.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-websocket/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1283,49 +1142,6 @@
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-websocket/src/main/java/com/suyu/websocket/controller/WebSocketController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-websocket/src/main/java/com/suyu/websocket/server/SocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-websocket/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-websocket/src/main/resources/templates/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1531485004000" expanded="true" signature="3614:3632" ph="..." />
-            <marker date="1531485004000" expanded="true" signature="3698:3708" ph="..." />
-            <marker date="1531485004000" expanded="true" signature="4334:4352" ph="..." />
-            <marker date="1531485004000" expanded="true" signature="4426:4440" ph="..." />
-            <marker date="1531485004000" expanded="true" signature="5167:5185" ph="..." />
-            <marker date="1531485004000" expanded="true" signature="5258:5272" ph="..." />
-            <marker date="1531485004000" expanded="true" signature="6344:6380" ph="..." />
-            <marker date="1531485004000" expanded="true" signature="6449:6486" ph="..." />
-            <marker date="1531485004000" expanded="true" signature="6940:6958" ph="..." />
-            <marker date="1531485004000" expanded="true" signature="7027:7041" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1345,15 +1161,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-websocket/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springboot-websocket/src/main/java/com/suyu/websocket/controller/WebSocketController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="71" column="71" lean-forward="false" selection-start-line="71" selection-start-column="71" selection-end-line="71" selection-end-column="71" />
+        <state relative-caret-position="225">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-websocket/buile_image.sh">
+    <entry file="file://$PROJECT_DIR$/springboot-websocket/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1361,11 +1177,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-websocket/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/springboot-websocket/src/main/resources/templates/admin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="3775">
+          <caret line="151" column="82" lean-forward="false" selection-start-line="151" selection-start-column="82" selection-end-line="151" selection-end-column="82" />
+          <folding>
+            <marker date="1531533999000" expanded="true" signature="3614:3632" ph="..." />
+            <marker date="1531533999000" expanded="true" signature="3698:3708" ph="..." />
+            <marker date="1531533999000" expanded="true" signature="4334:4352" ph="..." />
+            <marker date="1531533999000" expanded="true" signature="4426:4440" ph="..." />
+            <marker date="1531533999000" expanded="true" signature="5167:5185" ph="..." />
+            <marker date="1531533999000" expanded="true" signature="5258:5272" ph="..." />
+            <marker date="1531533999000" expanded="true" signature="6324:6360" ph="..." />
+            <marker date="1531533999000" expanded="true" signature="6429:6466" ph="..." />
+            <marker date="1531533999000" expanded="true" signature="6920:6938" ph="..." />
+            <marker date="1531533999000" expanded="true" signature="7007:7021" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-websocket/src/main/java/com/suyu/websocket/server/SocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1119">
+          <caret line="94" column="33" lean-forward="false" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+          <folding>
+            <element signature="e#1711#1712#0" expanded="true" />
+            <element signature="e#1750#1751#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
