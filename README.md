@@ -12,7 +12,7 @@ spring boot 集成各技术案例
  **springboot2-oauth2 包括:** 
 * springboot-oauth2-authorization-server(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-oauth2-authorization-server">springboot整合OAuth2.0认证服务</a>),
 
-* <a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-oauth2-resource-server">springboot-oauth2-resource-server(资源服务)</a>
+* springboot-oauth2-resource-server(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-oauth2-resource-server">资源服务</a>)
 
 2018/6/30 添加 springboot-mybatis-ehcache (<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-mybatis-myehcache">使用EhcacheCache做二级缓存,使用pageHelper做分页插件</a>)
 
