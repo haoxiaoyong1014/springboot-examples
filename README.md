@@ -18,6 +18,6 @@ spring boot 集成各技术案例
 
 2018/7/14 添加 springboot-websocket (<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-websocket">在线人数统计,消息发送,一对一,一对多发送消息<a>)
 
-持续跟新中....
+持续更新中....
 
 
