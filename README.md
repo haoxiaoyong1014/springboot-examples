@@ -20,7 +20,7 @@ spring boot 集成各技术案例
   
 2018/8/10 添加 springboot-shrio(<a href="https://github.com/haoxiaoyong1014/springboot-shiro">基础版<a>) 
 
-2018/8/13 添加 springboot-shiro-v1.2.0(<a href="https://github.com/haoxiaoyong1014/springboot-shiro-v1.2.0">基础版<a>)
+2018/8/13 添加 springboot-shiro-v1.2.0(<a href="https://github.com/haoxiaoyong1014/springboot-shiro-v1.2.0">加强版<a>)
 
 # springboot-redis-example(<a href="https://github.com/haoxiaoyong1014/springboot-redis-examples">redis系列</a>)
 
