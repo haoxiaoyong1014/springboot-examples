@@ -1,6 +1,5 @@
 # springboot-examples
 spring boot 集成各技术案例 <img src="https://camo.githubusercontent.com/95c3d7ef0b5da8445087e462514063675f79321d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4372656174697665253230436f6d6d6f6e732d4443334432342e737667" alt="知识共享协议（CC协议）" data-canonical-src="https://img.shields.io/badge/License-Creative%20Commons-DC3D24.svg" style="max-width:100%;">
-<img src="/oldratlee/translations/raw/master/LICENSE.png" alt="Attribution-NonCommercial-ShareAlike CC BY-NC-SA" style="max-width:100%;">
 
 <img src="https://camo.githubusercontent.com/d17fe698e0be90bd2cd57668ded5664e6e9c266e/68747470733a2f2f6261646765732e6769747465722e696d2f6f6c647261746c65652f7472616e736c6174696f6e732e737667" alt="Join the chat at https://gitter.im/oldratlee/translations" data-canonical-src="https://badges.gitter.im/oldratlee/translations.svg" style="max-width:100%;">
 <img src="https://camo.githubusercontent.com/60ee127d33be2824e70f611fb9afa2ec3f40eaf5/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6f6c647261746c65652f7472616e736c6174696f6e732e7376673f7374796c653d736f6369616c266c6162656c3d53746172" alt="GitHub stars" data-canonical-src="https://img.shields.io/github/stars/oldratlee/translations.svg?style=social&amp;label=Star" style="max-width:100%;">
