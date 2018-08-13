@@ -18,7 +18,9 @@ spring boot 集成各技术案例
 
 2018/7/14 添加 springboot-websocket (<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-websocket">在线人数统计,消息发送,一对一,一对多发送消息<a>)
   
-2018/8/13 添加 springboot-shrio(<a href="https://github.com/haoxiaoyong1014/springboot-shiro">基础版<a>) 
+2018/8/10 添加 springboot-shrio(<a href="https://github.com/haoxiaoyong1014/springboot-shiro">基础版<a>) 
+
+2018/8/13 添加 springboot-shiro-v1.2.0(<a href="https://github.com/haoxiaoyong1014/springboot-shiro-v1.2.0">基础版<a>)
 
 # springboot-redis-example(<a href="https://github.com/haoxiaoyong1014/springboot-redis-examples">redis系列</a>)
 
@@ -26,6 +28,8 @@ spring boot 集成各技术案例
 
 2018/08/01 添加 springboot-redis-fridends (<a href="https://github.com/haoxiaoyong1014/springboot-redis-examples/tree/master/springboot-redis-friends">基于Redis实现查询共同好友</a>,
 结合前端vue.js,前端项目地址: <a href="https://github.com/haoxiaoyong1014/common-friends">common-friends</a>)
+
+2018/6/12 添加  springboot-redis-docker(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-redis-docker">Docker 部署 SpringBoot 项目整合 Redis 镜像做访问计数(PV)Demo</a>)
 
 持续更新中....
 
