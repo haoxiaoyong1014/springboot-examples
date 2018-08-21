@@ -26,6 +26,7 @@ public class MerryyouResourceServerConfig extends ResourceServerConfigurerAdapte
     public void configure(HttpSecurity http) throws Exception {
         http.formLogin()
                 .successHandler(appLoginInSuccessHandler)//登录成功处理器
+                //.loginPage("/login").loginProcessingUrl("/login.do").defaultSuccessUrl("/user/info") 自定义登录授权页面
                 .and()
                 .authorizeRequests().anyRequest().authenticated().and()
                 .csrf().disable();
