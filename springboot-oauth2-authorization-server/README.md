@@ -20,7 +20,7 @@
     * 认证服务器核对了授权码和重定向URI，确认无误后，向客户端发送访问令牌（access token）和更新令牌（refresh token）。
     
 ![image](https://github.com/haoxiaoyong1014/springboot-examples/raw/master/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/img/v8.jpg) 
-
+![image](https://github.com/haoxiaoyong1014/springboot-examples/raw/master/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/img/v9.jpg) 
 * 还有一点需要说明 在请求头中处理了加入 Content-Type : application/x-www-form-urlencoded 还要加入:Authorization:Basic bWVycnl5b3U6bWVycnl5b3U=  
  其中 Authorization的值是 CLIENT_ID 和 CLIENT_SECRET Base64加密得到 详细内容在 springboot-examples/springboot-oauth2-authorization-server/src/test/java/cn/merryyou/security/SpringBoot2Oauth2Test.java 中
  

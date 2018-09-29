@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c6e9a6d-3cd1-4308-a303-4e8d2a25fc2a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/springboot-oauth2-authorization-server/src/main/java/cn/merryyou/security/SpringBoot2Oauth2Application.java" afterPath="$PROJECT_DIR$/springboot-oauth2-authorization-server/src/main/java/cn/merryyou/security/SpringBoot2Oauth2Application.java" />
-      <change beforePath="$PROJECT_DIR$/springboot-oauth2-authorization-server/src/main/java/cn/merryyou/security/security/MyUserDetailsService.java" afterPath="$PROJECT_DIR$/springboot-oauth2-authorization-server/src/main/java/cn/merryyou/security/security/MyUserDetailsService.java" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/img/v8.jpg" afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/img/v81.jpg" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springboot-rabbitmq-ack/target/" />
@@ -26,16 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TokenStoreConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-oauth2-authorization-server/src/main/java/cn/merryyou/security/config/TokenStoreConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="OAuth2Properties.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-oauth2-authorization-server/src/main/java/cn/merryyou/security/properties/OAuth2Properties.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,23 +50,30 @@
       <file leaf-file-name="MerryyouAuthorizationServerConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-oauth2-authorization-server/src/main/java/cn/merryyou/security/server/MerryyouAuthorizationServerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="822">
+            <state relative-caret-position="1700">
               <caret line="88" column="80" lean-forward="false" selection-start-line="88" selection-start-column="80" selection-end-line="88" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="650">
-                <caret line="26" column="112" lean-forward="false" selection-start-line="26" selection-start-column="112" selection-end-line="26" selection-end-column="112" />
+              <first_editor relative-caret-position="469">
+                <caret line="26" column="99" lean-forward="false" selection-start-line="26" selection-start-column="99" selection-end-line="26" selection-end-column="99" />
                 <folding />
               </first_editor>
               <second_editor />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="v81.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/img/v81.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -648,8 +643,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -657,12 +653,56 @@
               <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -933,7 +973,8 @@
       <workItem from="1534150324646" duration="865000" />
       <workItem from="1534293309521" duration="544000" />
       <workItem from="1534813926725" duration="12147000" />
-      <workItem from="1538186282792" duration="187000" />
+      <workItem from="1538186282792" duration="425000" />
+      <workItem from="1538190743114" duration="49000" />
     </task>
     <servers />
   </component>
@@ -961,7 +1002,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45835000" />
+    <option name="totallyTimeSpent" value="46122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -986,7 +1027,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42273402" sideWeight="0.4984051" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2511144" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962853" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22567783" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
@@ -1046,13 +1087,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-websocket/src/main/java/com/suyu/websocket/config/WebSocketConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-websocket/src/main/java/com/suyu/websocket/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1322,7 +1356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1338,7 +1371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1414,7 +1446,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-oauth2-authorization-server/src/main/java/cn/merryyou/security/server/MerryyouAuthorizationServerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="822">
+        <state relative-caret-position="1700">
           <caret line="88" column="80" lean-forward="false" selection-start-line="88" selection-start-column="80" selection-end-line="88" selection-end-column="80" />
           <folding />
         </state>
@@ -1423,12 +1455,17 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="650">
-            <caret line="26" column="112" lean-forward="false" selection-start-line="26" selection-start-column="112" selection-end-line="26" selection-end-column="112" />
+          <first_editor relative-caret-position="469">
+            <caret line="26" column="99" lean-forward="false" selection-start-line="26" selection-start-column="99" selection-end-line="26" selection-end-column="99" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/img/v81.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
