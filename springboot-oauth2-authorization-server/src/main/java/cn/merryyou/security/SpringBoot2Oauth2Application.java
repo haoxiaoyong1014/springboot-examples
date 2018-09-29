@@ -11,6 +11,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -53,10 +54,9 @@ public class SpringBoot2Oauth2Application {
     }
 
     @GetMapping("/userRedis")
+    @PreAuthorize("hasAnyAuthority('select')")
     public Object getCurrentUserRedis(Authentication authentication) {
         log.info("【SecurityOauth2Application】 getCurrentUserRedis authentication={}", JsonUtil.toJson(authentication));
-
-
         return authentication;
     }
 
