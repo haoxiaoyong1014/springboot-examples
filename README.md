@@ -26,7 +26,7 @@ spring boot 集成各技术案例 <img src="https://camo.githubusercontent.com/9
 
 2018/9/28 添加 springboot-quartz(<a href="https://github.com/haoxiaoyong1014/springboot-quartz">任务调度,持久化任务<a>)
 
-2018/10/15 添加 springboot-springDataJpa(<a href="https://github.com/haoxiaoyong1014/springboot-springDataJpa">Spring Data JPA 使用<a>)
+2018/10/15 添加 springboot-SpringDataJpa(<a href="https://github.com/haoxiaoyong1014/springboot-SpringDataJpa">Spring Data JPA 使用<a>)
 
 # springboot-redis-example(<a href="https://github.com/haoxiaoyong1014/springboot-redis-examples">redis系列</a>)
 
