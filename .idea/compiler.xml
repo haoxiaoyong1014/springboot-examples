@@ -14,6 +14,7 @@
         <module name="springboot-redis-docker" />
         <module name="springboot-web-thymeleaf" />
         <module name="springboot-websocket" />
+        <module name="springboot2-redis" />
         <module name="springbootwebsocket" />
       </profile>
     </annotationProcessing>
@@ -27,6 +28,7 @@
       <module name="springboot-redis-docker" target="1.8" />
       <module name="springboot-web-thymeleaf" target="1.6" />
       <module name="springboot-websocket" target="1.8" />
+      <module name="springboot2-redis" target="1.8" />
       <module name="springbootwebsocket" target="1.8" />
       <module name="wyait-manage" target="1.8" />
     </bytecodeTargetLevel>

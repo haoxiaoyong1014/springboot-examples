@@ -7,7 +7,7 @@ target
 .idea
 
 *.class
-
+.gitignore
 tmp
 
 *.bak
