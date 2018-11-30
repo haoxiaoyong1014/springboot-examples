@@ -1,12 +1,12 @@
 package cn.haoxy.redis.exampl;
 
 import cn.haoxy.redis.example.RedisMain;
+import cn.haoxy.redis.example.common.User;
 import cn.haoxy.redis.example.tool.StringUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.HashMap;
@@ -35,6 +35,14 @@ public class TestRedisStringUtil {
     }
 
     /**
+     * 测试添加一个引用数据类型
+     */
+    @Test
+    public void setObj() {
+        stringUtil.setObj("user", new User("小永", 23));
+    }
+
+    /**
      * 测试设置一个字符串_指定时间内有效
      */
     @Test
@@ -43,7 +51,7 @@ public class TestRedisStringUtil {
     }
 
     /**
-     *  key 值存在返回 false,不进行插入, 否则返回true,并插入
+     * key 值存在返回 false,不进行插入, 否则返回true,并插入
      */
     @Test
     public void setIfAbsent() {
@@ -75,6 +83,7 @@ public class TestRedisStringUtil {
         List<Object> list1 = stringUtil.multiGet(list);
         System.out.println(list1);   //[multi1, multi2, 3]
     }
+
     /**
      * 批量插入, key 值存在返回 false,不进行插入, 否则返回true,并插入
      * 有一个 key 已经存在就会返回 false,不同的那个key也不会插入
@@ -93,7 +102,7 @@ public class TestRedisStringUtil {
      * 设置键的字符串值并返回其旧值
      */
     @Test
-    public void getAndSet(){
+    public void getAndSet() {
         Object andSet = stringUtil.getAndSet("name_1_1", "boy");
         System.out.println(andSet);
     }
@@ -102,7 +111,7 @@ public class TestRedisStringUtil {
      * 支持整数,并返回其插入的整数值
      */
     @Test
-    public void increment(){
+    public void increment() {
         long int_value = stringUtil.increment("int_value", 2);
         System.out.println(int_value);//2
     }
@@ -111,7 +120,7 @@ public class TestRedisStringUtil {
      * 支持浮点,并返回其插入的值
      */
     @Test
-    public void incrementDouble(){
+    public void incrementDouble() {
         double int_value = stringUtil.increment("double_value", 2.1);
         System.out.println(int_value);//2.1
     }
@@ -119,7 +128,7 @@ public class TestRedisStringUtil {
 
     @Test
     public void getTest() {
-        Object name_1 = stringUtil.get("appendTest2");
+        Object name_1 = stringUtil.get("user");
         System.out.println(name_1);
     }
 }

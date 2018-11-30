@@ -4,7 +4,7 @@ spring:
   application:
     name: springboot2-redis
   redis:
-    host: 127.0.0.1
+    host: www.haoxiaoyong.cn
     password:
  #连接超时时间（毫秒）
     timeout: 10000
