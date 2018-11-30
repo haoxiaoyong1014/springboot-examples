@@ -1,5 +1,5 @@
 redis:
-  hostName: www.haoxiaoyong.cn
+  hostName:
   password:
   dbIndex: 0
 
