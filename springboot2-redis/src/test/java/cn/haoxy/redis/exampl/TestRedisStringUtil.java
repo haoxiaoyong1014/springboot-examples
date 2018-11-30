@@ -31,7 +31,7 @@ public class TestRedisStringUtil {
      */
     @Test
     public void setTest() {
-        stringUtil.set("name_1_1", "小永");
+        stringUtil.set("name_1_2", "小永");
     }
 
     /**
