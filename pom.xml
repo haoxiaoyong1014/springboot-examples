@@ -22,6 +22,7 @@
         <module>springboot-rabbitmq-ack</module>
         <module>springboot-websocket</module>
         <module>springboot2-redis</module>
+        <module>springboot-fastDFS</module>
     </modules>
 
 </project>
