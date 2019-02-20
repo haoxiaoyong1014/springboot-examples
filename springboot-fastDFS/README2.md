@@ -9,7 +9,7 @@
     <version>1.26.5</version>
 </dependency>
 ```
-此依赖仅支持springboot2x版本以上,如果你使用的是 springboot1x版本请使用一下依赖
+此依赖仅支持springboot2x版本以上,如果你使用的是 springboot1x版本请使用以下依赖
 
 ```xml
 <dependency>
