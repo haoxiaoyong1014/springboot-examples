@@ -1,5 +1,25 @@
 ### 使用FastDFSClient上传文件
 
+**引入依赖**
+
+```xml
+<dependency>
+    <groupId>com.github.tobato</groupId>
+    <artifactId>fastdfs-client</artifactId>
+    <version>1.26.5</version>
+</dependency>
+```
+此依赖仅支持springboot2x版本以上,如果你使用的是 springboot1x版本请使用一下依赖
+
+```xml
+<dependency>
+    <groupId>com.github.tobato</groupId>
+    <artifactId>fastdfs-client</artifactId>
+    <version>1.25.4-RELEASE</version>
+</dependency>
+
+```
+
 **FastDFSClient 工具类:**
 
 ```java
