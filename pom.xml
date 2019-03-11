@@ -23,6 +23,7 @@
         <module>springboot-websocket</module>
         <module>springboot2-redis</module>
         <module>springboot-fastDFS</module>
+        <module>global-exception</module>
     </modules>
 
 </project>
