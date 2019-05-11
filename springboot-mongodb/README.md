@@ -1,6 +1,6 @@
 **win安装及使用**
 
-<a href="/Users/haoxiaoyong/Git Clone/springboot-examples/springboot-mongodb/src/main/resources/mongodb安装及入门v1.1.pdf" width="100%" height="1200">mongodb安装及入门</a>
+<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-mongodb/src/main/resources/static/mongodb安装及入门v1.1.pdf">mongodb安装及入门</a>
 
 
 **linux 安装**
