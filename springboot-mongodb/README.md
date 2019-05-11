@@ -2,6 +2,10 @@
 
 <a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-mongodb/src/main/resources/static/mongodb安装及入门v1.1.pdf">mongodb安装及入门</a>
 
+可能会因为网速的原因,如果pdf文件显示不出来,请点击下载按钮
+
+![image.png](https://upload-images.jianshu.io/upload_images/15181329-3bb5488820b20b1a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 **linux 安装**
 下载: https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.4.9.tgz
 
