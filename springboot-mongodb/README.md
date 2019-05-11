@@ -1,7 +1,6 @@
 **win安装及使用**
 
-<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-mongodb/src/main/resources/static/mongodb安装及入门v1.1.pdf">mongodb安装及入门</a>
-
+<embed src="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-mongodb/src/main/resources/static/mongodb安装及入门v1.1.pdf" width="100%" height="1200">
 
 **linux 安装**
 下载: https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.4.9.tgz
