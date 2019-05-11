@@ -1,5 +1,7 @@
 **win安装及使用**
 
+![mongodb安装及入门v1.1.pdf](https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-mongodb/src/main/resources/static/mongodb安装及入门v1.1.pdf)
+
 <embed src="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-mongodb/src/main/resources/static/mongodb安装及入门v1.1.pdf" width="100%" height="1200"></embed>
 
 **linux 安装**
