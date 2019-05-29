@@ -1,5 +1,7 @@
 package cn.haoxy.interceptor.service;
 
+import cn.haoxy.interceptor.model.User;
+import cn.haoxy.interceptor.utils.CacheCollection;
 import org.springframework.stereotype.Service;
 
 /**
@@ -10,5 +12,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserService {
 
+    public User findById(String id) {
+        User user = CacheCollection.getUser(id);
+        if (user != null) {
+            return user;
+        }
+        return null;
+    }
 
 }

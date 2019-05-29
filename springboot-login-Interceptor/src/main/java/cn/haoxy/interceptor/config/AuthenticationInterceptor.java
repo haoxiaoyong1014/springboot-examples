@@ -1,8 +1,11 @@
 package cn.haoxy.interceptor.config;
 
 import cn.haoxy.interceptor.annotation.LoginRequired;
+import cn.haoxy.interceptor.model.User;
+import cn.haoxy.interceptor.service.UserService;
 import cn.haoxy.interceptor.utils.TokenUtils;
 import io.jsonwebtoken.Claims;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
@@ -18,6 +21,8 @@ import java.lang.reflect.Method;
  */
 public class AuthenticationInterceptor implements HandlerInterceptor {
 
+    @Autowired
+    private UserService userService;
 
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object handler) throws Exception {
@@ -28,22 +33,25 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
         //得到请求的哪个方法
         HandlerMethod handlerMethod = (HandlerMethod) handler;
         Method method = handlerMethod.getMethod();
-        //判断是否这个接口是否需要登录才能访问
+        //判断是否这个方法是否需要登录才能访问
         LoginRequired annotation = method.getAnnotation(LoginRequired.class);
         if (annotation != null) {
             //这个方法上含有这个注解,说明需要登录才能请求
+            //获取请求头上的token
             String token = httpServletRequest.getHeader("token");
             if (token == null) {
                 throw new RuntimeException("无token，请重新登录");
             }
             Claims claims = TokenUtils.parseJWT(token);
-            String UserId = claims.getId();
-        } else {
+            User user = userService.findById(claims.getId());
+            if (user == null) {
+                throw new RuntimeException("用户不存在，请重新登录");
+            }
+            // 当前登录用户@CurrentUser
+            httpServletRequest.setAttribute("currentUser", user);
             return true;
         }
-
-
-        return false;
+        return true;
     }
 
     @Override

@@ -19,7 +19,6 @@ import java.util.Date;
  */
 public class TokenUtils {
 
-    private Logger logger = LoggerFactory.getLogger(this.getClass());
     /**
      * 签名秘钥
      */
@@ -86,6 +85,14 @@ public class TokenUtils {
     public static Claims parseJWT(String jwt) {
         // 如果它不是签名的JWS（如预期的那样），则该行将抛出异常
 
+        Claims claims = Jwts.parser()
+                .setSigningKey(DatatypeConverter.parseBase64Binary(SECRET))
+                .parseClaimsJws(jwt).getBody();
+        return claims;
+    }
+
+    public static Claims parseExpiration(String jwt) {
+        // 如果它不是签名的JWS（如预期的那样），则该行将抛出异常
         Claims claims = Jwts.parser()
                 .setSigningKey(DatatypeConverter.parseBase64Binary(SECRET))
                 .parseClaimsJws(jwt).getBody();
