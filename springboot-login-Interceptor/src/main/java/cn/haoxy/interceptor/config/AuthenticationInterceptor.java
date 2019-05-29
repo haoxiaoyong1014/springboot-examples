@@ -1,4 +1,4 @@
-package cn.haoxy.interceptor.inter;
+package cn.haoxy.interceptor.config;
 
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
