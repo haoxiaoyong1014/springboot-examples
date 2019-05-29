@@ -25,6 +25,6 @@
         <module>springboot-fastDFS</module>
         <module>global-exception</module>
         <module>springboot-mongodb</module>
+        <module>springboot-login-Interceptor</module>
     </modules>
-
 </project>
