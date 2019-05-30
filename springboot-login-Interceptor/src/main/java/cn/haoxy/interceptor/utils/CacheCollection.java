@@ -4,7 +4,9 @@ import cn.haoxy.interceptor.model.User;
 import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * Created by Haoxy on 2019-05-29.
@@ -18,21 +20,33 @@ public class CacheCollection {
 
     static {
         users = new HashMap(100);
-        users.put("123",new User("123","zhangsan","123456"));
-        users.put("456",new User("456","lisi","123456"));
+        users.put("123", new User("123", "zhangsan", "123456"));
+        users.put("456", new User("456", "lisi", "123456"));
     }
-
 
 
     public static User getUser(String Id) {
         return users.get(Id);
     }
 
+    public static User getUserByName(String name, String password) {
+        Iterator<Map.Entry<String, User>> entries = users.entrySet().iterator();
+        while (entries.hasNext()) {
+            Map.Entry<String, User> entry = entries.next();
+            User user = entry.getValue();
+            if (name.equals(user.getName()) && password.equalsIgnoreCase(user.getPassword())) {
+                return user;
+            }
+        }
+        return null;
+    }
+
     /**
      * 读取容器总量
+     *
      * @return
      */
-    public static Integer getSize(){
-       return users.size();
+    public static Integer getSize() {
+        return users.size();
     }
 }

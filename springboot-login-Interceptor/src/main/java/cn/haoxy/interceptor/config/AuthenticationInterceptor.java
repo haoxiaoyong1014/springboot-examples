@@ -31,7 +31,7 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
     private UserService userService;
 
     @Override
-    public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object handler) throws Exception {
+    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         //如果不是映射到方法就不需要拦截
         if (!(handler instanceof HandlerMethod)) {
             return true;
@@ -44,7 +44,7 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
         if (annotation != null) {
             //这个方法上含有这个注解,说明需要登录才能请求
             //获取请求头上的token
-            String token = httpServletRequest.getHeader("token");
+            String token = request.getHeader("token");
             if (token == null) {
                 throw new RuntimeException("无token，请重新登录");
             }
@@ -62,12 +62,12 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
                  * 在并发情况在这个是有缺陷的;
                  * 2,token的过期是否过期前端来判断,登录的时候将atoken和rtoken都返回给前端,
                  */
-                httpServletResponse.setCharacterEncoding("utf-8");
-                httpServletResponse.setContentType("application/json; charset=utf-8");
-                ServletOutputStream out = httpServletResponse.getOutputStream();
+                response.setCharacterEncoding("utf-8");
+                response.setContentType("application/json; charset=utf-8");
+                ServletOutputStream out = response.getOutputStream();
                 JSONObject object = new JSONObject();
                 //如果 token 过期了以后,这个过期的 token 就会放入黑名单中;获取的 claims就是 null值;所以这个要用到 redis或者mysql 来拿 userId;或者用rtoken来换atoken
-                String newToken = TokenUtils.createJwtToken(" ");
+                String newToken = TokenUtils.createJwtToken("");
                 object.put("newToken", newToken);
                 object.put("status", 1);
                 object.put("message", "token已过期");
@@ -76,6 +76,10 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
                 out.close();
                 return false;
             }
+            if ("rtoken@admin".equals(claims.getSubject())) {
+                throw new RuntimeException("无效token....");
+            }
+
             User user = userService.findById(claims.getId());
             if (user == null) {
                 throw new RuntimeException("用户不存在，请重新登录");

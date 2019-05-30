@@ -22,14 +22,27 @@ public class TokenUtils {
     public static final String SECRET = "haoxy";
 
     /**
-     * 生成token
+     * 生成atoken
      *
      * @param id 一般传入userName
      * @return
      */
     public static String createJwtToken(String id) {
-        String issuer = "www.haoxiaoyong.cn";
-        String subject = "hxy@163.com";
+        String issuer = "atoken";
+        String subject = "atoken@admin";
+        long ttlMillis = System.currentTimeMillis();
+        return createJwtToken(id, issuer, subject, ttlMillis);
+    }
+
+    /**
+     * 生成 rtoken
+     *
+     * @param id
+     * @return
+     */
+    public static String createJwtrToken(String id) {
+        String issuer = "rtoken";
+        String subject = "rtoken@admin";
         long ttlMillis = System.currentTimeMillis();
         return createJwtToken(id, issuer, subject, ttlMillis);
     }
@@ -57,7 +70,7 @@ public class TokenUtils {
         Key signingKey = new SecretKeySpec(apiKeySecretBytes, signatureAlgorithm.getJcaName());
 
         // 设置JWT声明
-        long time = now.getTime() + 1000 * 60;
+        long time = now.getTime() + 1000 * 60 * 60;
         JwtBuilder builder = Jwts.builder().setId(id)
                 .setIssuedAt(now)
                 .setSubject(subject)
@@ -65,12 +78,11 @@ public class TokenUtils {
                 .setIssuer(issuer)
                 .signWith(signatureAlgorithm, signingKey);
 
-        /*// 添加过期时间
-        if (ttlMillis >= 0) {
-            long expMillis = nowMillis + ttlMillis;
-            Date exp = new Date(expMillis);
+        // 添加过期时间
+        if ("rtoken@admin".equals(subject)) {
+            Date exp = new Date(new Date(System.currentTimeMillis()).getTime() + 2500 * 36000 * 7);//7天
             builder.setExpiration(exp);
-        }*/
+        }
 
         // 构建JWT并将其序列化为紧凑的URL安全字符串
         return builder.compact();
@@ -92,6 +104,7 @@ public class TokenUtils {
         //String token = "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsImlhdCI6MTU1OTE3ODA3OCwic3ViIjoiaHh5QDE2My5jb20iLCJleHAiOjE1NTkxNzgxMzgsImlzcyI6Ind3dy5oYW94aWFveW9uZy5jbiJ9.Waxji0CbargnsqjPqJ0ZVNu6hOOtr3FJwkr8-BzXkbo";
         System.out.println(token);
         Claims claims = parseJWT(token);
+        System.out.println(claims.getSubject());
         Date expiration = claims.getExpiration();
         System.out.println(claims.getId());
         //在这里不用做判断,在验证 token 的时候 如果token过期会抛出 io.jsonwebtoken.ExpiredJwtException,我们捕获这个异常并做相应的操作就行;
@@ -101,4 +114,6 @@ public class TokenUtils {
         }*/
         System.out.println(expiration);
     }
+
+
 }

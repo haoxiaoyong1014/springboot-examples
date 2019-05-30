@@ -36,6 +36,11 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.49</version>
         </dependency>
+        <dependency>
+            <groupId>com.liumapp.redis</groupId>
+            <artifactId>redis-operator</artifactId>
+            <version>v2.0.0</version>
+        </dependency>
     </dependencies>
 
 </project>

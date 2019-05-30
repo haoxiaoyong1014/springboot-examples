@@ -19,5 +19,12 @@ public class UserService {
         }
         return null;
     }
+    public User findByName(String name,String password) {
+        User user = CacheCollection.getUserByName(name,password);
+        if (user != null) {
+            return user;
+        }
+        return null;
+    }
 
 }
