@@ -4,14 +4,20 @@ import cn.haoxy.interceptor.annotation.LoginRequired;
 import cn.haoxy.interceptor.model.User;
 import cn.haoxy.interceptor.service.UserService;
 import cn.haoxy.interceptor.utils.TokenUtils;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import io.jsonwebtoken.Claims;
+import io.jsonwebtoken.ExpiredJwtException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.lang.reflect.Method;
 
 /**
@@ -42,7 +48,33 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
             if (token == null) {
                 throw new RuntimeException("无token，请重新登录");
             }
-            Claims claims = TokenUtils.parseJWT(token);
+            Claims claims = null;
+            try {
+                claims = TokenUtils.parseJWT(token);
+            } catch (ExpiredJwtException e) {
+                //抛出此异常说明 token 已经过期
+               /*
+               * 这个刷新token的问题,我想在这里我想记录一下我的想法,在他第一次登陆的时候,我们生成两个token,分别为atoken和rtoken,
+               * 其中rtoken 不能做业务的操作,rtoken 的作用就是当 atoken 过期了之后,用 rtoken 来换取新的 atoekn,这个前提是
+               * 一般我们 atoken 的有效期为 2 个小时,rtoken 的过期时间为一周或者 15 天;如果rtoken都过期了那就要从新登陆了;
+               * 具体做法有两种: 1,我们生成rtoken 存在redis中,key为 atoken,value为rtoken;当检测要atoken过期了,我们从 redis中取出
+               * rtoken;判断是否存在或者是否过期;如果存在并没有过期,我们就生成一个新的atoken;response给前端,前端拿到新的atoken,从新请求;
+               * 在并发情况在这个是有缺陷的;
+               * 2,token的过期是否过期前端来判断,登录的时候将atoken和rtoken都返回给前端,
+               */
+                httpServletResponse.setCharacterEncoding("utf-8");
+                httpServletResponse.setContentType("application/json; charset=utf-8");
+                ServletOutputStream out = httpServletResponse.getOutputStream();
+                JSONObject object = new JSONObject();
+                String newToken = TokenUtils.createJwtToken(" ");
+                object.put("newToken", newToken);
+                object.put("status",1);
+                object.put("message","token已过期");
+                out.print(JSON.toJSONString(object));
+                out.flush();
+                out.close();
+               return false;
+            }
             User user = userService.findById(claims.getId());
             if (user == null) {
                 throw new RuntimeException("用户不存在，请重新登录");
