@@ -6,4 +6,6 @@ package cn.haoxy.interceptor.controller;
  * github:https://github.com/haoxiaoyong1014
  */
 public class LoginController {
+
+
 }
