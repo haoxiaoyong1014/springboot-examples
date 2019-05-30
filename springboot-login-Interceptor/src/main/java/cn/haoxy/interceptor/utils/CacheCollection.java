@@ -25,8 +25,16 @@ public class CacheCollection {
     }
 
 
-    public static User getUser(String Id) {
-        return users.get(Id);
+    public static User getUser(String id) {
+        Iterator<Map.Entry<String, User>> entries = users.entrySet().iterator();
+        while (entries.hasNext()) {
+            Map.Entry<String, User> entry = entries.next();
+            User user = entry.getValue();
+            if (user.getId().equals(id)) {
+                return user;
+            }
+        }
+        return null;
     }
 
     public static User getUserByName(String name, String password) {

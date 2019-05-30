@@ -6,6 +6,7 @@ import cn.haoxy.interceptor.utils.CacheCollection;
 import com.alibaba.fastjson.JSON;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -14,11 +15,12 @@ import org.springframework.web.bind.annotation.RestController;
  * github:https://github.com/haoxiaoyong1014
  */
 @RestController
+@RequestMapping("user")
 public class UserController {
 
     @LoginRequired
-    @GetMapping(value = "find/{id}")
-    public String findByUserId(@PathVariable String id) {
+    @GetMapping(value = "/find/{id}")
+    public String findByUserId(@PathVariable("id") String id) {
         User user = CacheCollection.getUser(id);
         return JSON.toJSONString(user);
     }
