@@ -4,6 +4,7 @@ import cn.haoxy.interceptor.annotation.LoginRequired;
 import cn.haoxy.interceptor.model.User;
 import cn.haoxy.interceptor.service.UserService;
 import cn.haoxy.interceptor.utils.TokenUtils;
+import cn.haoxy.redis.example.tool.StringUtil;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import io.jsonwebtoken.Claims;
@@ -12,12 +13,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
-
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.io.PrintWriter;
 import java.lang.reflect.Method;
 
 /**
@@ -29,6 +27,9 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
 
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private StringUtil stringUtil;
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
@@ -67,7 +68,12 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
                 ServletOutputStream out = response.getOutputStream();
                 JSONObject object = new JSONObject();
                 //如果 token 过期了以后,这个过期的 token 就会放入黑名单中;获取的 claims就是 null值;所以这个要用到 redis或者mysql 来拿 userId;或者用rtoken来换atoken
-                String newToken = TokenUtils.createJwtToken("");
+                String rtoken = stringUtil.get(token).toString();
+                if (rtoken == null) {
+                    throw new RuntimeException("token失效，请重新登录");
+                }
+                Claims rclaims = TokenUtils.parseJWT(rtoken);
+                String newToken = TokenUtils.createJwtToken(rclaims.getId());
                 object.put("newToken", newToken);
                 object.put("status", 1);
                 object.put("message", "token已过期");

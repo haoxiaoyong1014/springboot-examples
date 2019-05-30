@@ -1,8 +1,6 @@
 server:
   port: 9999
-liumapp:
-  redis:
-    hostName: redis
-    port: 6379
-    password: adminadmin
-    dbIndex: 0
+redis:
+  hostName: www.niezhiliang.com
+  password: adminadmin
+  dbIndex: 0
