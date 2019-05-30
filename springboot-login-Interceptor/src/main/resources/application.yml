@@ -1,6 +1,6 @@
 server:
   port: 9999
 redis:
-  hostName: www.niezhiliang.com
-  password: adminadmin
+  hostName:
+  password:
   dbIndex: 0
