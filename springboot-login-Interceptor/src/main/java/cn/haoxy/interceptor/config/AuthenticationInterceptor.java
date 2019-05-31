@@ -62,7 +62,8 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
                  * 一般我们 atoken 的有效期为 2 个小时,rtoken 的过期时间为一周或者 15 天;如果rtoken都过期了那就要从新登陆了;
                  * 具体做法有两种: 1,我们生成rtoken 存在redis中,key为 atoken,value为rtoken;当检测要atoken过期了,我们从 redis中取出
                  * rtoken;判断是否存在或者是否过期;如果存在并没有过期,我们就生成一个新的atoken;response给前端,前端拿到新的atoken,从新请求;
-                 * 在并发情况在这个是有缺陷的;
+                 * 并做到用户无感;
+                 * 在高并发情况在这个是有缺陷的;
                  * 2,token的过期是否过期前端来判断,登录的时候将atoken和rtoken都返回给前端,
                  */
                 response.setCharacterEncoding("UTF-8");
@@ -86,7 +87,7 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
                 out.close();
                 return false;
             }
-
+            //rtoken 没有操作业务的能力,rtoken的目的就是从中拿到用户id
             if ("rtoken@admin".equals(claims.getSubject())) {
                 throw new RuntimeException("无效token....");
             }
