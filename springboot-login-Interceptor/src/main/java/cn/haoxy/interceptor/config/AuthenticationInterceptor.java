@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
+
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -85,6 +86,7 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
                 out.close();
                 return false;
             }
+
             if ("rtoken@admin".equals(claims.getSubject())) {
                 throw new RuntimeException("无效token....");
             }
