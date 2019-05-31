@@ -70,7 +70,7 @@ public class TokenUtils {
         Key signingKey = new SecretKeySpec(apiKeySecretBytes, signatureAlgorithm.getJcaName());
 
         // 设置JWT声明
-        long time = now.getTime() + 1000 * 60 * 60;
+        long time = now.getTime() + 1000 * 60; //1分钟,用于测试使用,生产环境在 * 60
         JwtBuilder builder = Jwts.builder().setId(id)
                 .setIssuedAt(now)
                 .setSubject(subject)
@@ -100,8 +100,8 @@ public class TokenUtils {
     }
 
     public static void main(String[] args) {
-        String token = TokenUtils.createJwtToken("admin");
-        //String token = "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhZG1pbiIsImlhdCI6MTU1OTE3ODA3OCwic3ViIjoiaHh5QDE2My5jb20iLCJleHAiOjE1NTkxNzgxMzgsImlzcyI6Ind3dy5oYW94aWFveW9uZy5jbiJ9.Waxji0CbargnsqjPqJ0ZVNu6hOOtr3FJwkr8-BzXkbo";
+        //String token = TokenUtils.createJwtToken("admin");
+        String token = "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMjMiLCJpYXQiOjE1NTkyNzA1NjUsInN1YiI6ImF0b2tlbkBhZG1pbiIsImV4cCI6MTU1OTI3MDYyNSwiaXNzIjoiYXRva2VuIn0.8hFkRfjsNt8WXSG3tnWOfDI72zOZY_Hme9bVbbeXm3s";
         System.out.println(token);
         Claims claims = parseJWT(token);
         System.out.println(claims.getSubject());

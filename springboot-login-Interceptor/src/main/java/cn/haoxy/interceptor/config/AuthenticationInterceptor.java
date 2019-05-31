@@ -17,6 +17,7 @@ import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.lang.reflect.Method;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by Haoxy on 2019-05-29.
@@ -63,20 +64,22 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
                  * 在并发情况在这个是有缺陷的;
                  * 2,token的过期是否过期前端来判断,登录的时候将atoken和rtoken都返回给前端,
                  */
-                response.setCharacterEncoding("utf-8");
-                response.setContentType("application/json; charset=utf-8");
+                response.setCharacterEncoding("UTF-8");
+                response.setContentType("application/json; charset=UTF-8");
                 ServletOutputStream out = response.getOutputStream();
                 JSONObject object = new JSONObject();
                 //如果 token 过期了以后,这个过期的 token 就会放入黑名单中;获取的 claims就是 null值;所以这个要用到 redis或者mysql 来拿 userId;或者用rtoken来换atoken
-                String rtoken = stringUtil.get(token).toString();
+                Object rtoken = stringUtil.get(token);
                 if (rtoken == null) {
                     throw new RuntimeException("token失效，请重新登录");
                 }
-                Claims rclaims = TokenUtils.parseJWT(rtoken);
+                Claims rclaims = TokenUtils.parseJWT(rtoken.toString());
                 String newToken = TokenUtils.createJwtToken(rclaims.getId());
+                stringUtil.del(token);
+                stringUtil.set(newToken, rtoken.toString(), 7, TimeUnit.DAYS);
                 object.put("newToken", newToken);
                 object.put("status", 1);
-                object.put("message", "token已过期");
+                object.put("message", "token expiration");
                 out.print(JSON.toJSONString(object));
                 out.flush();
                 out.close();
