@@ -7,8 +7,10 @@ import cn.haoxy.interceptor.utils.TokenUtils;
 import cn.haoxy.redis.example.tool.StringUtil;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.fasterxml.jackson.core.JsonParseException;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
+import io.jsonwebtoken.SignatureException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -86,6 +88,8 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
                 out.flush();
                 out.close();
                 return false;
+            }catch (SignatureException e){
+                throw new RuntimeException("无效token....");
             }
             //rtoken 没有操作业务的能力,rtoken的目的就是从中拿到用户id
             if ("rtoken@admin".equals(claims.getSubject())) {
