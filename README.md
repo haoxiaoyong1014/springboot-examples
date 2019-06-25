@@ -40,7 +40,7 @@ spring boot 集成各技术案例 <img src="https://camo.githubusercontent.com/9
 
 2019/5/31 添加 springboot-login-Interceptor(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-login-Interceptor">springboot拦截器整合JWT做验证token,以及token过期解决方案</a>)
 
-2019/6/24 添加 springboot-druid()
+2019/6/24 添加 springboot-druid(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-druid">使用阿里巴巴提供的springboot整合druid包管理连接池</a>)
 
 # springboot-redis-example(<a href="https://github.com/haoxiaoyong1014/springboot-redis-examples">redis系列</a>)
 
