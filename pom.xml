@@ -26,5 +26,6 @@
         <module>global-exception</module>
         <module>springboot-mongodb</module>
         <module>springboot-login-Interceptor</module>
+        <module>springboot-druid</module>
     </modules>
 </project>
