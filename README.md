@@ -42,6 +42,8 @@ spring boot 集成各技术案例 <img src="https://camo.githubusercontent.com/9
 
 2019/6/24 添加 springboot-druid(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-druid">使用阿里巴巴提供的springboot整合druid包管理连接池</a>)
 
+2019/7/30 添加 springboot-easyexcel-encapsulation(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-druid">对阿里巴巴easyexcel导入导出excel文件进行封装</a>)
+
 # springboot-redis-example(<a href="https://github.com/haoxiaoyong1014/springboot-redis-examples">redis系列</a>)
 
 2018/6/12 添加  springboot-redis-docker(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-redis-docker">Docker 部署 SpringBoot 项目整合 Redis 镜像做访问计数(PV)Demo</a>)

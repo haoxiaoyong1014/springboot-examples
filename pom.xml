@@ -27,5 +27,6 @@
         <module>springboot-mongodb</module>
         <module>springboot-login-Interceptor</module>
         <module>springboot-druid</module>
+        <module>springboot-easyexcel-encapsulation</module>
     </modules>
 </project>
