@@ -223,7 +223,7 @@ write 方法的参数为当前 sheet 的 list 数据，当前 sheet 名以及对
 1,在测试导出方法时,不要使用postman测试,尽量再浏览器中输入;
 
 2,easyexcel好像是跟 springboot-admin 有些冲突,在生成环境中使用时,我们的项目使用了springboot-admin,在导出时浏览器会打印很多乱码;去掉 springboot-admin
-需要一些注解又可以直接下载;如果两者都想继续保留,就要将文件上传到文件服务器然后下载;
+需要一些依赖又可以直接下载;如果两者都想继续保留,就要将文件上传到文件服务器然后下载;
 
 在`ExcelUtil`类中的`writeExcel`方法:
 
