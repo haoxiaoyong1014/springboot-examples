@@ -128,7 +128,7 @@ public class TestRedisStringUtil {
 
     @Test
     public void getTest() {
-        Object name_1 = stringUtil.get("user");
+        Object name_1 = stringUtil.get("name_1_2");
         System.out.println(name_1);
     }
 }
