@@ -1,11 +1,13 @@
-package cn.haoxy.redis.token.service;
+package cn.haoxy.redis.token.service.impl;
 
 import cn.haoxy.redis.token.common.Constant;
 import cn.haoxy.redis.token.common.ResponseCode;
 import cn.haoxy.redis.token.common.ServerResponse;
 import cn.haoxy.redis.token.exception.ServiceException;
+import cn.haoxy.redis.token.service.TokenService;
 import cn.haoxy.redis.token.utils.JedisUtil;
 import cn.haoxy.redis.token.utils.RandomUtil;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.text.StrBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +22,8 @@ import javax.servlet.http.HttpServletRequest;
  * github:https://github.com/haoxiaoyong1014
  */
 @Service
-public class TokenServiceImpl implements TokenService{
+@Slf4j
+public class TokenServiceImpl implements TokenService {
 
     private static final String TOKEN_NAME = "token";
 
@@ -33,7 +36,7 @@ public class TokenServiceImpl implements TokenService{
         StrBuilder token = new StrBuilder();
         token.append(Constant.Redis.TOKEN_PREFIX).append(str);
 
-        jedisUtil.set(token.toString(), token.toString(), Constant.Redis.EXPIRE_TIME_MINUTE);
+        jedisUtil.set(token.toString(), token.toString(), Constant.Redis.EXPIRE_TIME_HOUR);
 
         return ServerResponse.success(token.toString());
     }
@@ -53,8 +56,9 @@ public class TokenServiceImpl implements TokenService{
         }
 
         Long del = jedisUtil.del(token);
-        if (del <= 0) {
+        log.info(del.toString());
+        /*if (del <= 0) {
             throw new ServiceException(ResponseCode.REPETITIVE_OPERATION.getMsg());
-        }
+        }*/
     }
 }

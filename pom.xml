@@ -29,6 +29,6 @@
         <module>springboot-login-Interceptor</module>
         <module>springboot-druid</module>
         <module>springboot-easyexcel-encapsulation</module>
-        <module>wxw</module>
+        <module>springboot-idempotent</module>
     </modules>
 </project>
