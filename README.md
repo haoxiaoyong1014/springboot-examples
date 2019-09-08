@@ -44,6 +44,7 @@ spring boot 集成各技术案例 <img src="https://camo.githubusercontent.com/9
 
 2019/7/30 添加 springboot-easyexcel-encapsulation(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-easyexcel-encapsulation">对阿里巴巴easyexcel导入导出excel文件进行封装</a>)
 
+2019/9/08 添加 strategy-aop(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/strategy-aop">AOP+自定义注解+策略模式 记录操作日志，避免过多的 if else</a>)
 
 # springboot-redis-example(<a href="https://github.com/haoxiaoyong1014/springboot-redis-examples">redis系列</a>)
 

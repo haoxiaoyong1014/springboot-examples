@@ -1,4 +1,4 @@
-### AOP+自定义注解+策略模式 记录操作日志，避免过多的if else
+### AOP+自定义注解+策略模式 记录操作日志，避免过多的 if else
 
 首先看下业务需求：
 ![image.png](https://upload-images.jianshu.io/upload_images/15181329-9d307e9e9bdf6290.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
