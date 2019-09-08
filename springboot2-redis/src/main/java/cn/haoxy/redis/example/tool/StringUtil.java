@@ -128,20 +128,32 @@ public class StringUtil {
 
     /**
      * 返回一个key对应的value的长度
+     *
      * @param key
      * @return
      */
-    public long size(String key){
+    public long size(String key) {
         return redisTemplate.opsForValue().size(key);
     }
 
     /**
      * 根据 key获取 value
+     *
      * @param key
      */
     public Object get(String key) {
         return redisTemplate.opsForValue().get(key);
     }
+
+    /**
+     * 根据 key删除 value
+     *
+     * @param key
+     */
+    public Object del(String key) {
+        return redisTemplate.delete(key);
+    }
+
 
 
 }

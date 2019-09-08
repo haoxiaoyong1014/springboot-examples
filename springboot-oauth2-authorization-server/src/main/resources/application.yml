@@ -22,5 +22,5 @@ merryyou:
         clientId: merryyou
         clientSecret: merryyou
       clients[1]:
-              clientId: merryyou1
-              clientSecret: merryyou1
+        clientId: merryyou1
+        clientSecret: merryyou1

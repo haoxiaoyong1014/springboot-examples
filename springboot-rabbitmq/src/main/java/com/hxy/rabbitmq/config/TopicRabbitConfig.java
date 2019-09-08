@@ -16,6 +16,7 @@ import org.springframework.context.annotation.Configuration;
 public class TopicRabbitConfig {
 
     final static String message = "topic.message";
+
     final static String messages = "topic.messages";
 
     @Bean

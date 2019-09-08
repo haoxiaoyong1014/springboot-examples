@@ -17,7 +17,7 @@ public class MerryyouJwtTokenEnhancer implements TokenEnhancer {
 
     public OAuth2AccessToken enhance(OAuth2AccessToken accessToken, OAuth2Authentication authentication) {
         Map<String, Object> info = new HashMap<String, Object>();
-        info.put("blog", "https://longfeizheng.github.io/");
+        info.put("blog", "https://blog.csdn.net/haoxiaoyong1014");
         ((DefaultOAuth2AccessToken) accessToken).setAdditionalInformation(info);
         return accessToken;
     }

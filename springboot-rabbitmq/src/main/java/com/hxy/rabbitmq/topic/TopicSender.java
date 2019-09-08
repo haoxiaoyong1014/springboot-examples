@@ -18,6 +18,7 @@ public class TopicSender {
     public void send() {
         String context = "hi, i am message all";
         System.out.println("Sender : " + context);
+        //String exchange, String routingKey, Object object
         this.rabbitTemplate.convertAndSend("topicExchange", "topic.1", context);
     }
 

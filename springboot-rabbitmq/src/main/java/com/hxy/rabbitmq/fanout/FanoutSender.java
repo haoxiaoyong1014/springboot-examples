@@ -17,6 +17,6 @@ public class FanoutSender {
     public void send() {
         String context = "hi, fanout msg ";
         System.out.println("Sender : " + context);
-        this.rabbitTemplate.convertAndSend("fanoutExchange","", context);//队列,路由键,参数
+        this.rabbitTemplate.convertAndSend("fanoutExchange","", context);//交换机,路由键,参数
     }
 }

@@ -1,0 +1,6 @@
+server:
+  port: 9999
+redis:
+  hostName: 120.78.149.247
+  password: adminadmin
+  dbIndex: 0

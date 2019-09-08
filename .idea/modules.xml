@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/global-exception/global-exception.iml" filepath="$PROJECT_DIR$/global-exception/global-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-druid/spring-boot-druid.iml" filepath="$PROJECT_DIR$/springboot-druid/spring-boot-druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-easyexcel-encapsulation/springboot-easyexcel-encapsulation.iml" filepath="$PROJECT_DIR$/springboot-easyexcel-encapsulation/springboot-easyexcel-encapsulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-examples.iml" filepath="$PROJECT_DIR$/springboot-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-fastDFS/springboot-fastdfs.iml" filepath="$PROJECT_DIR$/springboot-fastDFS/springboot-fastdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-login-Interceptor/springboot-login-Interceptor.iml" filepath="$PROJECT_DIR$/springboot-login-Interceptor/springboot-login-Interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" filepath="$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-myehcache/springboot-mybatis-myehcache.iml" filepath="$PROJECT_DIR$/springboot-mybatis-myehcache/springboot-mybatis-myehcache.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-oauth2-authorization-server/springboot-oauth2-authorization-server.iml" filepath="$PROJECT_DIR$/springboot-oauth2-authorization-server/springboot-oauth2-authorization-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-oauth2-resource-server/springboot-oauth2-resource-server.iml" filepath="$PROJECT_DIR$/springboot-oauth2-resource-server/springboot-oauth2-resource-server.iml" />
@@ -12,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-web-thymeleaf/springboot-web-thymeleaf.iml" filepath="$PROJECT_DIR$/springboot-web-thymeleaf/springboot-web-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" filepath="$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot2-redis/springboot2-redis.iml" filepath="$PROJECT_DIR$/springboot2-redis/springboot2-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wxw/wxw.iml" filepath="$PROJECT_DIR$/wxw/wxw.iml" />
     </modules>
   </component>
 </project>

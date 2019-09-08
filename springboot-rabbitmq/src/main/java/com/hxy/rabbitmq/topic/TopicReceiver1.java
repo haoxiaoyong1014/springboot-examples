@@ -10,7 +10,6 @@ import org.springframework.stereotype.Component;
  * github:https://github.com/haoxiaoyong1014
  */
 @Component
-
 public class TopicReceiver1 {
 
     @RabbitHandler

@@ -23,6 +23,12 @@
         <module>springboot-websocket</module>
         <module>springboot2-redis</module>
         <module>springboot-mybatis-myehcache</module>
+        <module>springboot-fastDFS</module>
+        <module>global-exception</module>
+        <module>springboot-mongodb</module>
+        <module>springboot-login-Interceptor</module>
+        <module>springboot-druid</module>
+        <module>springboot-easyexcel-encapsulation</module>
+        <module>wxw</module>
     </modules>
-
 </project>

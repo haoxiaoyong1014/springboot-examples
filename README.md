@@ -31,6 +31,19 @@ spring boot 集成各技术案例 <img src="https://camo.githubusercontent.com/9
 2018/10/20 添加 springboot-netty(<a href="https://github.com/haoxiaoyong1014/springboot-netty">springboot整合netty做心跳检测<a>)
 
 2018/11/29 添加 springboot2-redis(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot2-redis">springboot2x系列整合Redis(Lettuce版)<a>)
+
+2019/2/20 添加 springboot-fastDFS(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-fastDFS">springboot-fastDFS</a>)
+
+2019/3/12 添加 global-exception(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/global-exception">global-exception(Spring全局异常处理)</a>)
+
+2019/5/11 添加 springboot-mongodb(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-mongodb">springboot-mongodb(springboot整合mongodb)</a>)
+
+2019/5/31 添加 springboot-login-Interceptor(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-login-Interceptor">springboot拦截器整合JWT做验证token,以及token过期解决方案</a>)
+
+2019/6/24 添加 springboot-druid(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-druid">使用阿里巴巴提供的springboot整合druid包管理连接池</a>)
+
+2019/7/30 添加 springboot-easyexcel-encapsulation(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-easyexcel-encapsulation">对阿里巴巴easyexcel导入导出excel文件进行封装</a>)
+
 # springboot-redis-example(<a href="https://github.com/haoxiaoyong1014/springboot-redis-examples">redis系列</a>)
 
 2018/6/12 添加  springboot-redis-docker(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-redis-docker">Docker 部署 SpringBoot 项目整合 Redis 镜像做访问计数(PV)Demo</a>)

@@ -6,6 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="global-exception" />
+        <module name="spring-boot-druid" />
+        <module name="springboot-easyexcel-encapsulation" />
+        <module name="springboot-fastdfs" />
+        <module name="springboot-login-Interceptor" />
+        <module name="springboot-mongodb" />
         <module name="springboot-mybatis-myehcache" />
         <module name="springboot-oauth2-authorization-server" />
         <module name="springboot-oauth2-resource-server" />
@@ -15,10 +21,17 @@
         <module name="springboot-web-thymeleaf" />
         <module name="springboot-websocket" />
         <module name="springboot2-redis" />
+        <module name="wxw" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="global-exception" target="1.6" />
+      <module name="spring-boot-druid" target="1.8" />
+      <module name="springboot-easyexcel-encapsulation" target="1.6" />
       <module name="springboot-examples" target="1.6" />
+      <module name="springboot-fastdfs" target="1.8" />
+      <module name="springboot-login-Interceptor" target="1.8" />
+      <module name="springboot-mongodb" target="1.8" />
       <module name="springboot-mybatis-myehcache" target="1.6" />
       <module name="springboot-oauth2-authorization-server" target="1.8" />
       <module name="springboot-oauth2-resource-server" target="1.8" />
@@ -28,6 +41,13 @@
       <module name="springboot-web-thymeleaf" target="1.6" />
       <module name="springboot-websocket" target="1.8" />
       <module name="springboot2-redis" target="1.8" />
+      <module name="wxw" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-oauth2-authorization-server" options="-parameters" />
+      <module name="springboot-oauth2-resource-server" options="-parameters" />
+    </option>
   </component>
 </project>
