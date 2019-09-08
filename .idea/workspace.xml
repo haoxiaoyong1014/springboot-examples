@@ -2,116 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12dee648-9eb8-4d40-956f-350af0894c4e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/global-exception/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global-exception/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global-exception/src/main/java/cn/haoxiaoyong/ex/ExceptionApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global-exception/src/main/java/cn/haoxiaoyong/ex/common/Parameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global-exception/src/main/java/cn/haoxiaoyong/ex/common/RespInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global-exception/src/main/java/cn/haoxiaoyong/ex/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global-exception/src/main/java/cn/haoxiaoyong/ex/exception/CustomizeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global-exception/src/main/java/cn/haoxiaoyong/ex/global/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-druid/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-druid/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-druid/src/main/java/cn/haoxiaoyong/druid/DruidApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-druid/src/main/java/cn/haoxiaoyong/druid/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-druid/src/main/java/cn/haoxiaoyong/druid/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-druid/src/main/java/cn/haoxiaoyong/druid/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-druid/src/main/java/cn/haoxiaoyong/druid/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-druid/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-druid/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyexcel-encapsulation/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyexcel-encapsulation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyexcel-encapsulation/src/main/java/cn/haoxy/easyexcel/EasyexcelMethodEncapsulationApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyexcel-encapsulation/src/main/java/cn/haoxy/easyexcel/controller/ExcelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyexcel-encapsulation/src/main/java/cn/haoxy/easyexcel/excel/ExcelException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyexcel-encapsulation/src/main/java/cn/haoxy/easyexcel/excel/ExcelListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyexcel-encapsulation/src/main/java/cn/haoxy/easyexcel/excel/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyexcel-encapsulation/src/main/java/cn/haoxy/easyexcel/excel/ExcelWriterFactroy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyexcel-encapsulation/src/main/java/cn/haoxy/easyexcel/model/ExportInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyexcel-encapsulation/src/main/java/cn/haoxy/easyexcel/model/ImportInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyexcel-encapsulation/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fastDFS/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fastDFS/README2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fastDFS/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fastDFS/src/main/java/cn/haoxiaoyong/fastdfs/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fastDFS/src/main/java/cn/haoxiaoyong/fastdfs/util/FastDFSClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fastDFS/src/main/java/cn/haoxiaoyong/fastdfs/util/FiletoMuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fastDFS/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fastDFS/src/test/java/cn/haoxiaoyong/fastdfs/TestFastDFSClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-login-Interceptor/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-login-Interceptor/src/main/java/cn/haoxy/interceptor/InterApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-login-Interceptor/src/main/java/cn/haoxy/interceptor/annotation/LoginRequired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-login-Interceptor/src/main/java/cn/haoxy/interceptor/config/AuthenticationInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-login-Interceptor/src/main/java/cn/haoxy/interceptor/config/MvcConfigurer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-login-Interceptor/src/main/java/cn/haoxy/interceptor/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-login-Interceptor/src/main/java/cn/haoxy/interceptor/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-login-Interceptor/src/main/java/cn/haoxy/interceptor/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-login-Interceptor/src/main/java/cn/haoxy/interceptor/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-login-Interceptor/src/main/java/cn/haoxy/interceptor/utils/CacheCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-login-Interceptor/src/main/java/cn/haoxy/interceptor/utils/TokenUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-login-Interceptor/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/java/cn/haoxy/mongodb/MongodbApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/java/cn/haoxy/mongodb/controller/CmsPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/java/cn/haoxy/mongodb/dao/CmsPageRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/java/cn/haoxy/mongodb/domain/CmsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/java/cn/haoxy/mongodb/domain/CmsPageParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/java/cn/haoxy/mongodb/request/QueryPageRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/java/cn/haoxy/mongodb/response/CommonCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/java/cn/haoxy/mongodb/response/QueryResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/java/cn/haoxy/mongodb/response/QueryResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/java/cn/haoxy/mongodb/response/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/java/cn/haoxy/mongodb/response/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/java/cn/haoxy/mongodb/response/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/java/cn/haoxy/mongodb/service/PageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/resources/sql/cms_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/resources/sql/cms_page.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/resources/sql/cms_site.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/resources/sql/cms_site_server.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/resources/sql/cms_template.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/resources/sql/filesystem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/resources/sql/fs.chunks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/resources/sql/fs.files.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/resources/sql/sys_dictionary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/resources/sql/user_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/resources/static/mongodb安装及入门v1.1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mongodb/src/test/java/cn/haoxy/mongodb/CmsPageRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxw/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxw/src/main/java/cn/haoxy/redis/token/TokenApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxw/src/main/java/cn/haoxy/redis/token/annotation/ApiIdempotent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxw/src/main/java/cn/haoxy/redis/token/common/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxw/src/main/java/cn/haoxy/redis/token/common/ResponseCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxw/src/main/java/cn/haoxy/redis/token/common/ServerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxw/src/main/java/cn/haoxy/redis/token/exception/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxw/src/main/java/cn/haoxy/redis/token/interceptor/ApiIdempotentInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxw/src/main/java/cn/haoxy/redis/token/service/TokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxw/src/main/java/cn/haoxy/redis/token/service/TokenServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxw/src/main/java/cn/haoxy/redis/token/utils/JedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxw/src/main/java/cn/haoxy/redis/token/utils/RandomUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mybatis-myehcache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis-myehcache/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-oauth2-authorization-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-oauth2-authorization-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-oauth2-authorization-server/springboot-oauth2-authorization-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-oauth2-authorization-server/springboot-oauth2-authorization-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-oauth2-authorization-server/src/main/java/cn/merryyou/security/security/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-oauth2-authorization-server/src/main/java/cn/merryyou/security/security/MyUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-oauth2-authorization-server/src/main/java/cn/merryyou/security/security/jwt/MerryyouJwtTokenEnhancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-oauth2-authorization-server/src/main/java/cn/merryyou/security/security/jwt/MerryyouJwtTokenEnhancer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-oauth2-authorization-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-oauth2-authorization-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-oauth2-resource-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-oauth2-resource-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-oauth2-resource-server/springboot-oauth2-resource-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-oauth2-resource-server/springboot-oauth2-resource-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq-ack/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq-ack/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/config/TopicRabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/config/TopicRabbitConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/fanout/FanoutSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/fanout/FanoutSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/topic/TopicReceiver1.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/topic/TopicReceiver1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/topic/TopicSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/hxy/rabbitmq/topic/TopicSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-redis-docker/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-redis-docker/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot2-redis/src/main/java/cn/haoxy/redis/example/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot2-redis/src/main/java/cn/haoxy/redis/example/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot2-redis/src/main/java/cn/haoxy/redis/example/tool/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot2-redis/src/main/java/cn/haoxy/redis/example/tool/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global-exception/global-exception.iml" beforeDir="false" afterPath="$PROJECT_DIR$/global-exception/global-exception.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-druid/spring-boot-druid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-druid/spring-boot-druid.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-easyexcel-encapsulation/springboot-easyexcel-encapsulation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-easyexcel-encapsulation/springboot-easyexcel-encapsulation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-fastDFS/springboot-fastdfs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-fastDFS/springboot-fastdfs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-login-Interceptor/springboot-login-Interceptor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-login-Interceptor/springboot-login-Interceptor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-myehcache/springboot-mybatis-myehcache.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis-myehcache/springboot-mybatis-myehcache.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq-ack/springboot-rabbitmq-ack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq-ack/springboot-rabbitmq-ack.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis-docker/springboot-redis-docker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-redis-docker/springboot-redis-docker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-web-thymeleaf/springboot-web-thymeleaf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web-thymeleaf/springboot-web-thymeleaf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-redis/springboot2-redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot2-redis/springboot2-redis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxw/wxw.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-idempotent/springboot-idempotent.iml" afterDir="false" />
     </list>
     <ignored path="springboot-examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -133,6 +42,8 @@
     <ignored path="$PROJECT_DIR$/springboot-fastDFS/target/" />
     <ignored path="$PROJECT_DIR$/springboot-easyexcel-encapsulation/target/" />
     <ignored path="$PROJECT_DIR$/global-exception/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-idempotent/target/" />
+    <ignored path="$PROJECT_DIR$/strategy-aop/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,85 +59,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar!/org/springframework/context/annotation/Import.class">
+        <entry file="file://$PROJECT_DIR$/strategy-aop/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-            </state>
+            <state relative-caret-position="-634" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot2-redis/src/main/java/cn/haoxy/redis/example/tool/HashUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wxw/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot2-redis/src/main/resources/redis.properties">
+        <entry file="file://$PROJECT_DIR$/strategy-aop/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot2-redis/src/test/java/cn/haoxy/redis/exampl/TestRedisListUtil.java">
+        <entry file="file://$PROJECT_DIR$/strategy-aop/src/main/java/cn/haoxy/strategy/aop/StrategApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="253">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot2-redis/src/test/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/strategy-aop/src/main/java/cn/haoxy/strategy/aop/strategys/MessageAddUserStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+            <state relative-caret-position="189">
+              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy-aop/src/main/java/cn/haoxy/strategy/aop/handler/DataSourceContextAware.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy-aop/src/main/java/cn/haoxy/strategy/aop/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy-aop/src/main/java/cn/haoxy/strategy/aop/handler/MessageInitHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-212">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot2-redis/src/test/java/cn/haoxy/redis/exampl/TestRedisStringUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wxw/src/main/java/cn/haoxy/redis/token/TokenApplication.java">
+        <entry file="file://$PROJECT_DIR$/strategy-aop/src/main/java/cn/haoxy/strategy/aop/handler/MessageMonitorHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot2-redis/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/strategy-aop/src/main/java/cn/haoxy/strategy/aop/service/AnalysisMessageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy-aop/src/main/java/cn/haoxy/strategy/aop/service/AnalysisUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              <folding>
+                <element signature="e#927#928#0" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -240,6 +157,8 @@
         <option value="$PROJECT_DIR$/springboot2-redis/src/test/resources/application.yml" />
         <option value="$PROJECT_DIR$/springboot2-redis/src/test/java/cn/haoxy/redis/exampl/TestRedisStringUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/strategy-aop/src/main/java/cn/haoxy/strategy/aop/service/AnalysisMessageService.java" />
+        <option value="$PROJECT_DIR$/strategy-aop/src/main/java/cn/haoxy/strategy/aop/handler/MessageMonitorHandler.java" />
       </list>
     </option>
   </component>
@@ -267,6 +186,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,21 +194,79 @@
               <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy-aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy-aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy-aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy-aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy-aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy-aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy-aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565878747322" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567933534685" />
     <property name="js-jscs-nodeInterpreter" value="D:\Application\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../examples/itext-pdf-replace" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/strategy-aop/pom.xml" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
@@ -303,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRedisStringUtil.getTest">
+  <component name="RunManager" selected="Spring Boot.StrategApplication">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -516,6 +494,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DruidApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-druid" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.haoxiaoyong.druid.DruidApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EasyexcelMethodEncapsulationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-easyexcel-encapsulation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.haoxy.easyexcel.EasyexcelMethodEncapsulationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RabbitmqApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-rabbitmq" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hxy.rabbitmq.RabbitmqApp" />
@@ -533,6 +525,19 @@
     <configuration name="SpringBootDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-redis-docker" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.haoxy.example.SpringBootDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="strategy-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.haoxy.strategy.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.haoxy.strategy.aop.StrategApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -577,9 +582,13 @@
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.RabbitmqApp" />
       <item itemvalue="Spring Boot.SpringBoot2Oauth2Application" />
+      <item itemvalue="Spring Boot.EasyexcelMethodEncapsulationApplication" />
+      <item itemvalue="Spring Boot.DruidApplication" />
+      <item itemvalue="Spring Boot.StrategApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.StrategApplication" />
         <item itemvalue="JUnit.TestRedisStringUtil.getTest" />
       </list>
     </recent_temporary>
@@ -599,6 +608,7 @@
       <workItem from="1544853241089" duration="25000" />
       <workItem from="1565875762517" duration="2479000" />
       <workItem from="1565878970530" duration="20000" />
+      <workItem from="1567930118012" duration="2221000" />
     </task>
     <servers />
   </component>
@@ -608,7 +618,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5473000" />
+    <option name="totallyTimeSpent" value="7694000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -620,9 +630,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
+    <frame x="-8" y="-8" width="1552" height="840" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22623828" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22891566" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Palette&#9;" order="3" />
@@ -633,13 +644,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.61443067" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2641243" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.15819208" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.27824858" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Spring" order="12" />
@@ -653,7 +664,7 @@
       <window_info anchor="right" id="Bean Validation" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.099571735" />
-      <window_info anchor="right" id="Maven" order="8" weight="0.32953784" />
+      <window_info anchor="right" id="Maven" order="8" visible="true" weight="0.14993307" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
@@ -726,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wxw/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -764,13 +768,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot2-redis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/springboot-idempotent/src/main/java/cn/haoxy/redis/token/annotation/ApiIdempotent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot2-redis/src/test/java/cn/haoxy/redis/exampl/TestRedisStringUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
+        <state relative-caret-position="322">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot2-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-druid/src/main/java/cn/haoxiaoyong/druid/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy-aop/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy-aop/src/main/java/cn/haoxy/strategy/aop/service/AnalysisMessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy-aop/src/main/java/cn/haoxy/strategy/aop/StrategApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy-aop/src/main/java/cn/haoxy/strategy/aop/strategys/MessageAddUserStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy-aop/src/main/java/cn/haoxy/strategy/aop/handler/DataSourceContextAware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy-aop/src/main/java/cn/haoxy/strategy/aop/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy-aop/src/main/java/cn/haoxy/strategy/aop/service/AnalysisUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy-aop/src/main/java/cn/haoxy/strategy/aop/handler/MessageInitHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-212">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy-aop/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-634" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy-aop/src/main/java/cn/haoxy/strategy/aop/handler/MessageMonitorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
         </state>
       </provider>
     </entry>

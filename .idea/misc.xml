@@ -43,6 +43,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mybatis-myehcache/pom.xml" />
+        <option value="$PROJECT_DIR$/strategy-aop/pom.xml" />
       </list>
     </option>
   </component>

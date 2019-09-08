@@ -6,6 +6,7 @@
     <file url="file://$PROJECT_DIR$/springboot-druid" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-easyexcel-encapsulation" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-fastDFS" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-idempotent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-login-Interceptor" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mongodb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mybatis-myehcache" charset="UTF-8" />
@@ -17,6 +18,7 @@
     <file url="file://$PROJECT_DIR$/springboot-web-thymeleaf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-websocket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot2-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/strategy-aop" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wxw" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

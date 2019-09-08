@@ -1,0 +1,5 @@
+{
+  "/user/addUser": "账号添加",
+  "/user/isLock": "账号禁用",
+  "/user/delUser": "账号删除"
+}

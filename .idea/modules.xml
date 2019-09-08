@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-easyexcel-encapsulation/springboot-easyexcel-encapsulation.iml" filepath="$PROJECT_DIR$/springboot-easyexcel-encapsulation/springboot-easyexcel-encapsulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-examples.iml" filepath="$PROJECT_DIR$/springboot-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-fastDFS/springboot-fastdfs.iml" filepath="$PROJECT_DIR$/springboot-fastDFS/springboot-fastdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-idempotent/springboot-idempotent.iml" filepath="$PROJECT_DIR$/springboot-idempotent/springboot-idempotent.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-login-Interceptor/springboot-login-Interceptor.iml" filepath="$PROJECT_DIR$/springboot-login-Interceptor/springboot-login-Interceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" filepath="$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-myehcache/springboot-mybatis-myehcache.iml" filepath="$PROJECT_DIR$/springboot-mybatis-myehcache/springboot-mybatis-myehcache.iml" />
@@ -18,7 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-web-thymeleaf/springboot-web-thymeleaf.iml" filepath="$PROJECT_DIR$/springboot-web-thymeleaf/springboot-web-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" filepath="$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot2-redis/springboot2-redis.iml" filepath="$PROJECT_DIR$/springboot2-redis/springboot2-redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/wxw/wxw.iml" filepath="$PROJECT_DIR$/wxw/wxw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/strategy-aop/strategy-aop.iml" filepath="$PROJECT_DIR$/strategy-aop/strategy-aop.iml" />
     </modules>
   </component>
 </project>
