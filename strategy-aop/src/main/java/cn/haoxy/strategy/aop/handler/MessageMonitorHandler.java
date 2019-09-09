@@ -71,7 +71,7 @@ public class MessageMonitorHandler {
         HttpOutputMessage outputMessage = new ServletServerHttpResponse(response);
         //converter.write(obj, MediaType.APPLICATION_JSON, outputMessage);
         converter.write(obj.toString(),null, outputMessage);
-
+        shutdownResponse(response);
         //判断调用是否成功
         //......省略
         //如果调用成功
@@ -120,6 +120,15 @@ public class MessageMonitorHandler {
         RequestAttributes requestAttributes = RequestContextHolder.getRequestAttributes();
         ServletRequestAttributes servletRequestAttributes = (ServletRequestAttributes) requestAttributes;
         return servletRequestAttributes.getResponse();
+    }
+
+    /**
+     * 关流
+     * @param response
+     * @throws IOException
+     */
+    private void shutdownResponse(HttpServletResponse response) throws IOException {
+        response.getOutputStream().close();
     }
 
 }
