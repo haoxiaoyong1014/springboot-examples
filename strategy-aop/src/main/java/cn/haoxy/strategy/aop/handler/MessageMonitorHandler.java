@@ -17,6 +17,9 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpOutputMessage;
+import org.springframework.http.converter.StringHttpMessageConverter;
+import org.springframework.http.server.ServletServerHttpResponse;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
@@ -45,6 +48,13 @@ public class MessageMonitorHandler {
     @Autowired
     private MessageStrategyService messageStrategyService;
 
+    /* @Autowired
+    private MappingJackson2HttpMessageConverter converter;*/
+
+    @Autowired
+    private StringHttpMessageConverter converter;
+
+
 
     @Pointcut("@annotation(cn.haoxy.strategy.aop.annotation.MessageLog)")
     public void checkMessageHandler() {
@@ -57,7 +67,11 @@ public class MessageMonitorHandler {
         logger.info("start run doAround.....");
         Object obj = proceedingJoinPoint.proceed();//调用执行目标方法
         //返回客户端结果
-        ReturnUtils.infoReturn(getHttpServletResponse(),obj);
+        HttpServletResponse response = getHttpServletResponse();
+        HttpOutputMessage outputMessage = new ServletServerHttpResponse(response);
+        //converter.write(obj, MediaType.APPLICATION_JSON, outputMessage);
+        converter.write(obj.toString(),null, outputMessage);
+
         //判断调用是否成功
         //......省略
         //如果调用成功
