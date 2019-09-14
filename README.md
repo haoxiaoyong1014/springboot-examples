@@ -59,6 +59,8 @@ spring boot 集成各技术案例 <img src="https://camo.githubusercontent.com/9
 
 2019/8/16 添加 springboot-idempotent(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-idempotent">springboot + redis + 注解 + 拦截器 实现接口幂等性校验</a>)
 
+2019/9/14 添加 springboot-mybatis-redis-cache(<a href="https://github.com/haoxiaoyong1014/springboot-redis-examples/tree/master/springboot-mybatis-redis-cache">使用redis做二级缓存</a>)
+
 持续更新中....
 
 
