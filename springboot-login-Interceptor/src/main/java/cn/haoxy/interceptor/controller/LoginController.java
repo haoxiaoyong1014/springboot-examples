@@ -37,7 +37,7 @@ public class LoginController {
         } else {
             String atoken = TokenUtils.createJwtToken(userInDataBase.getId());
             String rtoken = TokenUtils.createJwtrToken(userInDataBase.getId());
-            stringUtil.set(atoken, rtoken, 7, TimeUnit.DAYS); //redis
+            stringUtil.set(atoken, rtoken, 2, TimeUnit.MINUTES); //redis
             jsonObject.put("token", atoken);
             jsonObject.put("user", userInDataBase);
         }
