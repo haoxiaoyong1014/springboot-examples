@@ -46,6 +46,8 @@ spring boot 集成各技术案例 <img src="https://camo.githubusercontent.com/9
 
 2019/9/08 添加 strategy-aop(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/strategy-aop">AOP+自定义注解+策略模式 记录操作日志，避免过多的 if else</a>)
 
+2019/10/15 添加 chat-software(<a href="https://github.com/haoxiaoyong1014/chat-software"> 基于Netty Spring Boot仿微信聊天项目</a>)
+
 # springboot-redis-example(<a href="https://github.com/haoxiaoyong1014/springboot-redis-examples">redis系列</a>)
 
 2018/6/12 添加  springboot-redis-docker(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-redis-docker">Docker 部署 SpringBoot 项目整合 Redis 镜像做访问计数(PV)Demo</a>)
