@@ -85,7 +85,8 @@ public class MerryyouAuthorizationServerConfig extends AuthorizationServerConfig
                         .secret(passwordEncoder.encode(config.getClientSecret()))
                         .accessTokenValiditySeconds(config.getAccessTokenValiditySeconds())
                         .refreshTokenValiditySeconds(60 * 60 * 24 * 15)
-                        .authorizedGrantTypes("refresh_token", "password", "authorization_code")//OAuth2支持的验证模式
+                        //.authorizedGrantTypes("refresh_token", "password", "authorization_code")//OAuth2支持的验证模式
+                        .authorizedGrantTypes("authorization_code")//OAuth2支持的验证模式
                         .redirectUris("https://github.com/haoxiaoyong1014?tab=repositories")
                         .scopes("all");
             }

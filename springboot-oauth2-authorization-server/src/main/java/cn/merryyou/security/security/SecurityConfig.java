@@ -33,7 +33,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
 //                .formLogin().and()
-                .httpBasic().and()
+                //.httpBasic().and()
+                .httpBasic().disable()
                 .csrf().disable();
     }
 }
