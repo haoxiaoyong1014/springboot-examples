@@ -70,7 +70,8 @@ public class TokenUtils {
         Key signingKey = new SecretKeySpec(apiKeySecretBytes, signatureAlgorithm.getJcaName());
 
         // 设置JWT声明
-        long time = now.getTime() + 1000 * 60; //1分钟,用于测试使用,生产环境在 * 60
+        //long time = now.getTime() + 1000 * 60; //1分钟,用于测试使用,生产环境在 * 60
+        long time = now.getTime() + 1000 * 60 * 60;// 60分钟
         JwtBuilder builder = Jwts.builder().setId(id)
                 .setIssuedAt(now)
                 .setSubject(subject)
@@ -81,6 +82,7 @@ public class TokenUtils {
         // 添加过期时间
         if ("rtoken@admin".equals(subject)) {
             Date exp = new Date(new Date(System.currentTimeMillis()).getTime() + 2500 * 36000 * 7);//7天
+            //Date exp = new Date(new Date(System.currentTimeMillis()).getTime() + 2000 * 60);//2分钟
             builder.setExpiration(exp);
         }
 

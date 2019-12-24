@@ -46,6 +46,8 @@ spring boot 集成各技术案例 <img src="https://camo.githubusercontent.com/9
 
 2019/9/08 添加 strategy-aop(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/strategy-aop">AOP+自定义注解+策略模式 记录操作日志，避免过多的 if else</a>)
 
+2019/10/15 添加 chat-software(<a href="https://github.com/haoxiaoyong1014/chat-software"> 基于Netty Spring Boot仿微信聊天项目</a>)
+
 # springboot-redis-example(<a href="https://github.com/haoxiaoyong1014/springboot-redis-examples">redis系列</a>)
 
 2018/6/12 添加  springboot-redis-docker(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-redis-docker">Docker 部署 SpringBoot 项目整合 Redis 镜像做访问计数(PV)Demo</a>)
@@ -60,6 +62,8 @@ spring boot 集成各技术案例 <img src="https://camo.githubusercontent.com/9
 2019/8/16 添加 springboot-idempotent(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-idempotent">springboot + redis + 注解 + 拦截器 实现接口幂等性校验</a>)
 
 2019/9/14 添加 springboot-mybatis-redis-cache(<a href="https://github.com/haoxiaoyong1014/springboot-redis-examples/tree/master/springboot-mybatis-redis-cache">使用redis做二级缓存</a>)
+
+2019/10/29添加 [Redis专题(七)--基于Sentinel（哨兵）搭建实现Redis高可用集群](https://haoxiaoyong.cn/2019/10/29/2019/2019-12-03-redis-master-slave/)
 
 持续更新中....
 

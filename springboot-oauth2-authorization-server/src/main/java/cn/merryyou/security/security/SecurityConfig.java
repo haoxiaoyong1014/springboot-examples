@@ -32,9 +32,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
-//                .formLogin().and()
+                .formLogin().and()
                 //.httpBasic().and()
-                .httpBasic().disable()
+                // .antMatcher("user/login").anonymous().and()
                 .csrf().disable();
     }
 }
