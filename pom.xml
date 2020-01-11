@@ -30,5 +30,6 @@
         <module>springboot-druid</module>
         <module>springboot-easyexcel-encapsulation</module>
         <module>springboot-idempotent</module>
+        <module>distributed-job</module>
     </modules>
 </project>
