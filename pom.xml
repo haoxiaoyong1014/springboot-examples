@@ -31,5 +31,6 @@
         <module>springboot-easyexcel-encapsulation</module>
         <module>springboot-idempotent</module>
         <module>distributed-job</module>
+        <module>mybatis-plus-example</module>
     </modules>
 </project>

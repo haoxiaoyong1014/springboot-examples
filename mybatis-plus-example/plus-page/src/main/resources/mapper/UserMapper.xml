@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.haoxy.mybatis.plus.page.mapper.UserMapper">
+
+    <select id="mySelectPage" resultType="cn.haoxy.mybatis.plus.page.pojo.User">
+        SELECT
+	*
+FROM
+	USER
+WHERE
+	(
+		age = #{pg.selectInt} and name = #{pg.selectStr})
+
+    </select>
+	<select id="mySelectPageAndPs" resultType="cn.haoxy.mybatis.plus.page.pojo.User">
+        SELECT
+	*
+FROM
+	USER
+WHERE
+	(
+		age = #{pg.selectInt} and name = #{pg.selectStr})
+
+		OR(
+			age = #{ps.yihao} and email = #{ps.erhao})
+    </select>
+
+</mapper>
