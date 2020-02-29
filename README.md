@@ -49,6 +49,8 @@ spring boot 集成各技术案例 <img src="https://camo.githubusercontent.com/9
 2019/10/15 添加 chat-software(<a href="https://github.com/haoxiaoyong1014/chat-software"> 基于Netty Spring Boot仿微信聊天项目</a>)
 
 2020/1/11 添加 distributed-job(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/distributed-job">spring-boot整合xxl-job,手动触发定时任务</a>)
+
+2020/2/29 添加 mybatis-plus-example(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/mybatis-plus-example">springboot整合mybatis-plus</a>)
 # springboot-redis-example(<a href="https://github.com/haoxiaoyong1014/springboot-redis-examples">redis系列</a>)
 
 2018/6/12 添加  springboot-redis-docker(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-redis-docker">Docker 部署 SpringBoot 项目整合 Redis 镜像做访问计数(PV)Demo</a>)
