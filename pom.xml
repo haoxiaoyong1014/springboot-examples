@@ -32,5 +32,6 @@
         <module>springboot-idempotent</module>
         <module>distributed-job</module>
         <module>mybatis-plus-example</module>
+        <module>okay-spring-boot-starter</module>
     </modules>
 </project>

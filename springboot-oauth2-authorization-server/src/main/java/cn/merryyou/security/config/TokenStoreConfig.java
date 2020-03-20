@@ -30,6 +30,7 @@ public class TokenStoreConfig {
 
     /**
      * 用于存放token
+     *
      * @return
      */
     @Bean
@@ -43,26 +44,28 @@ public class TokenStoreConfig {
      */
     @Configuration
     @ConditionalOnProperty(prefix = "merryyou.security.oauth2", name = "storeType", havingValue = "jwt", matchIfMissing = true)
-    public static class JwtTokenCofnig{
+    public static class JwtTokenCofnig {
 
         @Autowired
         private OAuth2Properties oAuth2Properties;
 
         /**
          * 使用jwtTokenStore存储token
+         *
          * @return
          */
         @Bean
-        public TokenStore jwtTokenStore(){
+        public TokenStore jwtTokenStore() {
             return new JwtTokenStore(jwtAccessTokenConverter());
         }
 
         /**
          * 用于生成jwt
+         *
          * @return
          */
         @Bean
-        public JwtAccessTokenConverter jwtAccessTokenConverter(){
+        public JwtAccessTokenConverter jwtAccessTokenConverter() {
             JwtAccessTokenConverter accessTokenConverter = new JwtAccessTokenConverter();
             accessTokenConverter.setSigningKey(oAuth2Properties.getJwtSigningKey());//生成签名的key
             return accessTokenConverter;
@@ -70,11 +73,12 @@ public class TokenStoreConfig {
 
         /**
          * 用于扩展JWT
+         *
          * @return
          */
         @Bean
         @ConditionalOnMissingBean(name = "jwtTokenEnhancer")
-        public TokenEnhancer jwtTokenEnhancer(){
+        public TokenEnhancer jwtTokenEnhancer() {
             return new MerryyouJwtTokenEnhancer();
         }
 
