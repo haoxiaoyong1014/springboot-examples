@@ -33,5 +33,6 @@
         <module>distributed-job</module>
         <module>mybatis-plus-example</module>
         <module>okay-spring-boot-starter</module>
+        <module>springboot-threadpool</module>
     </modules>
 </project>
