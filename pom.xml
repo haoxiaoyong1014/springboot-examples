@@ -34,5 +34,6 @@
         <module>mybatis-plus-example</module>
         <module>okay-spring-boot-starter</module>
         <module>springboot-threadpool</module>
+        <module>springboot-swagger-enhance</module>
     </modules>
 </project>
