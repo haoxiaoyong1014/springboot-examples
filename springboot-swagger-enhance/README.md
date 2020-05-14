@@ -1,6 +1,8 @@
 ### springboot-swagger-enhance
 
-此 demo 主要演示如何集成第三方的 swagger 来替换原生的 swagger，美化文档样式。本 demo 使用[swagger-bootstrap-ui](https://github.com/xiaoymin/swagger-bootstrap-ui)
+此 demo 主要演示如何集成第三方的 swagger 来替换原生的 swagger，美化文档样式。
+
+本 demo 使用[swagger-bootstrap-ui](https://github.com/xiaoymin/swagger-bootstrap-ui)
 启动项目，访问地址 http://${host}:${port}/doc.html
 
 #### UI增强
