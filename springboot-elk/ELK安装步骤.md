@@ -2,7 +2,6 @@
 
 #### 简单介绍
 
-
 - ElasticSearch:用于存储日志信息。
 - Logstash:用于收集、处理和转发日志信息。
 - Kibana:提供可搜索的Web可视化界面。
