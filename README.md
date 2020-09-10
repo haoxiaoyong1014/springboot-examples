@@ -59,6 +59,10 @@ spring boot 集成各技术案例 <img src="https://camo.githubusercontent.com/9
 
 2020/5/14 添加 springboot-swagger-enhance(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-swagger-enhance">SpringBoot集成第三方swagger美化文档样式</a>)
 
+2020/8/14 添加 springboot-admin-monitor(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-admin-monitor">springBoot-admin 日志,系统监控</a>)
+
+2020/9/10 添加 springboot-elk(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-elk">springboot集成ELK,包含安装步骤</a>)
+
 # springboot-redis-example(<a href="https://github.com/haoxiaoyong1014/springboot-redis-examples">redis系列</a>)
 
 2018/6/12 添加  springboot-redis-docker(<a href="https://github.com/haoxiaoyong1014/springboot-examples/tree/master/springboot-redis-docker">Docker 部署 SpringBoot 项目整合 Redis 镜像做访问计数(PV)Demo</a>)
