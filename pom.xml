@@ -35,5 +35,7 @@
         <module>okay-spring-boot-starter</module>
         <module>springboot-threadpool</module>
         <module>springboot-swagger-enhance</module>
+        <module>springboot-admin-monitor</module>
+        <module>springboot-elk</module>
     </modules>
 </project>
