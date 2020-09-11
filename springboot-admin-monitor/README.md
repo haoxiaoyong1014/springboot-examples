@@ -110,6 +110,6 @@ springboot-admin-client2和springboot-admin-client一样，只需要更改端口
 ![](http://cg-mall.oss-cn-shanghai.aliyuncs.com/blog/image-20200910111417661.png)
 
 这里我们着重看下日志
-![](http://cg-mall.oss-cn-shanghai.aliyuncs.com/blog/image-20200910111637098.png)
+
 ![](http://cg-mall.oss-cn-shanghai.aliyuncs.com/blog/image-20200910111956179.png)
 到这里我们就看到了实时日志；
