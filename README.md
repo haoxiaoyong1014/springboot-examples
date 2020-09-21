@@ -80,6 +80,8 @@ spring boot 集成各技术案例 <img src="https://camo.githubusercontent.com/9
 
 2019/10/29添加 [Redis专题(七)--基于Sentinel（哨兵）搭建实现Redis高可用集群](https://haoxiaoyong.cn/2019/10/29/2019/2019-12-03-redis-master-slave/)
 
+2020/09/18添加 springboot-redis-range( [SpringBoot 使用 Redis Geo 实现查找附近的位置](https://github.com/haoxiaoyong1014/springboot-redis-examples/tree/master/springboot-redis-range))
+
 持续更新中....
 
 
